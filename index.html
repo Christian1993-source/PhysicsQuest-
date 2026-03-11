@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to Mr. Mercado PhysicsQuest</title>
+  <link rel="stylesheet" href="physicsquest-hub.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="site-header">
+      <div class="brand-mini">
+        <span class="brand-title">Welcome to Mr. Mercado PhysicsQuest</span>
+        <span class="brand-subtitle">Physics Review Hub</span>
+      </div>
+      <div class="header-actions">
+        <div class="teacher-portrait" aria-label="Mr. Mercado profile">
+          <img src="assets/mr-mercado-profile.png" alt="Mr. Mercado profile" />
+        </div>
+        <button id="teacherAdminBtn" class="btn ghost small" type="button">Teacher Admin</button>
+      </div>
+    </header>
+
+    <main class="content">
+      <section id="homeView" class="view is-active" data-student-view>
+        <div class="hero">
+          <div class="hero-card">
+            <p class="hero-eyebrow">Exam Review</p>
+            <div class="hero-logo-shell">
+              <img class="hero-logo" src="assets/physicsquest-logo.png" alt="PhysicsQuest logo" />
+            </div>
+            <h1>Welcome to Mr. Mercado PhysicsQuest</h1>
+            <p class="hero-subtitle">Master the concepts. Conquer the exam.</p>
+            <div class="welcome-block">
+              <div class="welcome-title">Welcome!</div>
+              <div class="welcome-text">Choose a physics review below and start your 45-minute practice.</div>
+            </div>
+          </div>
+        </div>
+
+        <div id="reviewsSection" class="reviews-section">
+          <div class="section-header">
+            <div>
+              <h2>Physics Reviews</h2>
+              <p class="section-subtitle">Choose a bold blue physics review set and begin.</p>
+            </div>
+          </div>
+          <div id="reviewGrid" class="card-grid"></div>
+        </div>
+      </section>
+
+      <section id="quizView" class="view" data-student-view>
+        <div class="quiz-layout">
+          <div class="quiz-main">
+            <div class="quiz-status">
+              <div class="status-item">
+                <span class="status-label">Time</span>
+                <span id="timerDisplay" class="status-value">45:00</span>
+              </div>
+              <div class="status-item">
+                <span class="status-label">Progress</span>
+                <span id="progressDisplay" class="status-value">Question 1 of 1</span>
+              </div>
+              <div class="status-item">
+                <span class="status-label">Score</span>
+                <span id="scoreDisplay" class="status-value">Score: 0</span>
+              </div>
+              <div class="status-item action">
+                <span class="status-label">Home</span>
+                <button id="homeBtnQuiz" class="btn ghost small" type="button">Back to Home</button>
+              </div>
+            </div>
+
+            <div class="quiz-card">
+              <div class="question-top">
+                <div id="reviewTitleBadge" class="review-badge">Physics Review</div>
+              </div>
+              <div id="questionText" class="question-text"></div>
+              <div class="quiz-tools">
+                <button id="hintBtn" class="btn ghost small" type="button">Hint</button>
+              </div>
+              <div id="hintBox" class="hint-box hidden"></div>
+              <div id="optionsGrid" class="options-grid"></div>
+              <div id="feedbackText" class="feedback"></div>
+              <button id="continueBtn" class="btn primary wide" type="button" disabled>Continue</button>
+            </div>
+          </div>
+
+          <aside class="quiz-sidebar">
+            <div class="quiz-sidebar-title">Questions</div>
+            <div id="questionNav" class="question-nav"></div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="resultsView" class="view" data-student-view>
+        <div class="results-card">
+          <h2>Results</h2>
+          <div id="resultsTitle" class="results-title">Physics Review</div>
+          <div id="finalScore" class="results-score">Final score: 0 / 0</div>
+          <div id="finalPercent" class="results-percent">0%</div>
+          <p id="finalMessage" class="results-message"></p>
+          <div class="results-actions">
+            <button id="retryBtn" class="btn primary" type="button">Retry</button>
+            <button id="backHomeBtn" class="btn ghost" type="button">Back Home</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="adminDashboard" class="view admin-view" data-admin-view>
+        <div class="admin-header">
+          <div>
+            <h2>Teacher Admin Dashboard</h2>
+            <p class="section-subtitle">Create, edit, duplicate, clear, or delete physics review sets.</p>
+          </div>
+          <div class="admin-header-actions">
+            <button id="createReviewBtn" class="btn primary" type="button">Create New Review</button>
+            <button id="exportBtn" class="btn ghost" type="button">Export Reviews (JSON)</button>
+            <button id="importBtn" class="btn ghost" type="button">Import Reviews (JSON)</button>
+            <input id="importInput" type="file" accept="application/json" hidden />
+          </div>
+        </div>
+        <div class="sync-card">
+          <div class="sync-heading">
+            <div>
+              <h3>GitHub Live Sync</h3>
+              <p class="section-subtitle">When you save, PhysicsQuest can publish the shared <code>questions.json</code> bank so students see it when they open or refresh the GitHub link.</p>
+            </div>
+            <div class="sync-note">Publishes to <code>questions.json</code></div>
+          </div>
+          <div class="sync-grid">
+            <div class="sync-readout">
+              <span class="sync-label">Detected GitHub repo</span>
+              <strong id="syncRepoValue">Not detected</strong>
+              <span class="sync-help">Your token stays only on this computer.</span>
+            </div>
+            <label class="sync-field">
+              GitHub token
+              <input id="githubTokenInput" type="password" placeholder="Paste a GitHub token with repository contents access" autocomplete="off" />
+            </label>
+          </div>
+          <div class="sync-actions">
+            <button id="saveSyncBtn" class="btn ghost" type="button">Save Token</button>
+            <button id="publishNowBtn" class="btn primary" type="button">Publish Now</button>
+          </div>
+          <div id="syncStatus" class="sync-status" aria-live="polite">Students load the shared questions.json bank when they enter or refresh the page.</div>
+        </div>
+        <div id="adminList" class="admin-list"></div>
+        <div class="admin-footer">
+          <button id="clearLocalBtn" class="btn ghost tiny" type="button">Clear Local Data (This Computer)</button>
+        </div>
+      </section>
+
+      <section id="adminEditor" class="view admin-view" data-admin-view>
+        <div class="admin-header">
+          <div>
+            <h2 id="editorTitle">Create New Review</h2>
+            <p class="section-subtitle">Paste the questions for one physics review. They will belong to this review only.</p>
+          </div>
+        </div>
+
+        <form id="editorForm" class="editor-form">
+          <div class="form-grid">
+            <label>
+              Review title
+              <input id="titleInput" type="text" placeholder="e.g., Unit 2: Forces and Motion" />
+            </label>
+            <div class="time-note">Time limit is fixed at 45 minutes for every review.</div>
+          </div>
+
+          <label class="full">
+            Questions input
+            <textarea id="questionsInput" rows="16" placeholder="What is the SI unit of force?
+Answer: newton | N
+Hint: It is named after Isaac Newton.
+
+What is the speed of an object that travels 20 m in 4 s?
+Answer: 5
+Tolerance: 0.1
+Hint: Speed = distance / time.
+
+What happens to acceleration if the net force increases and mass stays constant?
+A) It decreases
+B) It stays the same
+C) It increases*
+D) It becomes zero"></textarea>
+          </label>
+
+          <div class="format-card">
+            <h3>Format Example</h3>
+            <pre>Topic: Forces
+What is the SI unit of force?
+Answer: newton | N
+Hint: It is named after Isaac Newton.
+
+Topic: Motion
+What is the speed of an object that travels 12 m in 3 s?
+Answer: 4
+Tolerance: 0.1
+Hint: Speed = distance / time.
+
+Topic: Energy
+Which store of energy increases when an object is lifted higher?
+A) Thermal energy
+B) Gravitational potential energy*
+C) Sound energy
+D) Magnetic energy
+Hint: Height matters.</pre>
+          </div>
+
+          <div id="parseErrors" class="error-box" aria-live="polite"></div>
+
+          <div class="form-actions">
+            <button type="submit" class="btn primary">Save</button>
+            <button type="button" id="cancelEditorBtn" class="btn ghost">Cancel</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <div>Welcome to Mr. Mercado PhysicsQuest</div>
+    <div>Physics Review Hub</div>
+    <div>Built for physics repaso</div>
+  </footer>
+
+  <script src="physicsquest-hub.js"></script>
+</body>
+</html>
