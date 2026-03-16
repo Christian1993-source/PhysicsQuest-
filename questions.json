@@ -1,4 +1,285 @@
 {
-  "updatedAt": "2026-03-16T13:02:52.167Z",
-  "reviews": []
+  "updatedAt": "2026-03-16T13:34:36.492Z",
+  "reviews": [
+    {
+      "id": "review-badf6631-a00b-49fd-82c0-5333a0d200a3",
+      "title": "Unit B.1: Formative Quiz Review (Topic B.1 Thermal Energy Transfers)",
+      "topics": [
+        "Brownian motion",
+        "Shape and volume of gases",
+        "Gas pressure",
+        "Density",
+        "Internal energy",
+        "States of matter",
+        "Temperature",
+        "Thermometer calibration",
+        "Kelvin scale",
+        "Temperature and molecular speed",
+        "Molecular speed distribution",
+        "Average kinetic energy",
+        "Thermal equilibrium",
+        "Fourier’s Law problem",
+        "Black-body spectrum and Wien’s displacement law",
+        "Thermal capacity",
+        "Physics"
+      ],
+      "questions": [
+        {
+          "id": "question-brownian-motion-why-does-a-liquid-have-a-fixed-volume-but-not-a-fixed-shape-1",
+          "type": "mc",
+          "questionText": "Why does a liquid have a fixed volume but not a fixed shape?",
+          "topic": "Brownian motion",
+          "hint": "Think about how liquid particles behave.",
+          "choices": [
+            "Its particles are fixed in position",
+            "Its particles stay close together but can move past one another",
+            "Its particles are extremely far apart",
+            "Its particles have no motion"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-brownian-motion-brownian-motion-is-2",
+          "type": "mc",
+          "questionText": "Brownian motion is",
+          "topic": "Brownian motion",
+          "hint": "It was first explained by Robert Brown.",
+          "choices": [
+            "the regular circular motion of particles",
+            "the random zigzag movement of small particles observed under a microscope",
+            "the expansion of solids",
+            "the pressure of a gas"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-shape-and-volume-of-gases-brownian-motion-occurs-because-particles-are-constantly-3",
+          "type": "mc",
+          "questionText": "Brownian motion occurs because particles are constantly",
+          "topic": "Shape and volume of gases",
+          "hint": "The surrounding liquid or gas matters.",
+          "choices": [
+            "pulled downward by gravity only",
+            "hit by invisible molecules of the surrounding fluid",
+            "changing mass",
+            "dissolving into the fluid"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-gas-pressure-a-gas-has-no-fixed-shape-or-volume-because-its-molecules-4",
+          "type": "mc",
+          "questionText": "A gas has no fixed shape or volume because its molecules",
+          "topic": "Gas pressure",
+          "hint": "This is stated directly in the PPT.",
+          "choices": [
+            "are fixed in place",
+            "move freely with almost no intermolecular forces",
+            "are larger than liquid particles",
+            "have zero kinetic energy"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-density-gas-pressure-is-caused-by-5",
+          "type": "mc",
+          "questionText": "Gas pressure is caused by",
+          "topic": "Density",
+          "hint": "Pressure comes from impacts.",
+          "choices": [
+            "molecules colliding with the walls of the container",
+            "molecules losing energy",
+            "the color of the gas",
+            "the density becoming zero"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-internal-energy-complete-the-blank-on-a-microscopic-level-density-depends-on-6",
+          "type": "fill",
+          "questionText": "Complete the blank: On a microscopic level, density depends on how closely ______ are spaced.",
+          "topic": "Internal energy",
+          "hint": "This appears directly in the density slide.",
+          "answers": [
+            "particles"
+          ]
+        },
+        {
+          "id": "question-states-of-matter-internal-energy-is-equal-to-the-sum-of-microscopic-7",
+          "type": "mc",
+          "questionText": "Internal energy is equal to the sum of microscopic",
+          "topic": "States of matter",
+          "hint": "It is the energy inside a system due to particle motion and interactions.",
+          "choices": [
+            "kinetic and potential energy",
+            "sound and magnetic energy",
+            "gravitational and nuclear energy",
+            "elastic and electrical energy only"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-states-of-matter-for-solids-and-liquids-internal-energy-equals-8",
+          "type": "mc",
+          "questionText": "For solids and liquids, internal energy equals",
+          "topic": "States of matter",
+          "hint": "Use the summary slide.",
+          "choices": [
+            "kinetic only",
+            "potential only",
+            "kinetic + potential",
+            "zero"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-temperature-for-gases-internal-energy-equals-9",
+          "type": "mc",
+          "questionText": "For gases, internal energy equals",
+          "topic": "Temperature",
+          "hint": "Use the summary slide.",
+          "choices": [
+            "kinetic only",
+            "potential only",
+            "kinetic + potential",
+            "thermal capacity only"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-thermometer-calibration-temperature-is-a-measure-of-how-or-a-body-is-10",
+          "type": "fill",
+          "questionText": "Temperature is a measure of how ______ or ______ a body is.",
+          "topic": "Thermometer calibration",
+          "hint": "This definition appears exactly in the PPT.",
+          "answers": [
+            "hot, cold"
+          ]
+        },
+        {
+          "id": "question-kelvin-scale-the-celsius-scale-is-defined-using-11",
+          "type": "mc",
+          "questionText": "The Celsius scale is defined using",
+          "topic": "Kelvin scale",
+          "hint": "Compare the liquid length to two fixed points.",
+          "choices": [
+            "one fixed point",
+            "two fixed points",
+            "density and pressure",
+            "mass and volume"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-kelvin-scale-complete-the-blank-k-c-12",
+          "type": "numeric",
+          "questionText": "Complete the blank: K = °C + ______",
+          "topic": "Kelvin scale",
+          "hint": "This conversion is shown directly in the PPT.",
+          "answer": 273,
+          "tolerance": 0.5
+        },
+        {
+          "id": "question-temperature-and-molecular-speed-absolute-zero-is-13",
+          "type": "mc",
+          "questionText": "Absolute zero is",
+          "topic": "Temperature and molecular speed",
+          "hint": "This is the definition given on the slide.",
+          "choices": [
+            "the boiling point of water",
+            "the lowest possible temperature where particle motion is minimal",
+            "273 °C",
+            "the highest possible temperature"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-molecular-speed-distribution-for-an-ideal-gas-a-higher-temperature-in-kelvin-means-molecu-14",
+          "type": "mc",
+          "questionText": "For an ideal gas, a higher temperature in kelvin means molecules move",
+          "topic": "Molecular speed distribution",
+          "hint": "The distribution shifts to the right.",
+          "choices": [
+            "slower",
+            "faster on average",
+            "only in straight lines",
+            "with the same speed as before"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-average-kinetic-energy-when-temperature-increases-the-speed-distribution-curve-15",
+          "type": "mc",
+          "questionText": "When temperature increases, the speed distribution curve",
+          "topic": "Average kinetic energy",
+          "hint": "This wording appears in the PPT.",
+          "choices": [
+            "shifts left and becomes taller",
+            "shifts right, becomes wider, and the peak becomes lower",
+            "stays exactly the same",
+            "disappears"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-thermal-equilibrium-if-the-temperature-of-a-gas-increases-the-average-kinetic-en-16",
+          "type": "mc",
+          "questionText": "If the temperature of a gas increases, the average kinetic energy of its particles",
+          "topic": "Thermal equilibrium",
+          "hint": "This is part of the kinetic theory relation.",
+          "choices": [
+            "decreases",
+            "stays the same",
+            "increases",
+            "becomes zero"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-fourier-s-law-problem-complete-the-blank-thermal-energy-is-transferred-from-a-obje-17",
+          "type": "fill",
+          "questionText": "Complete the blank: Thermal energy is transferred from a ______ object to a ______ one until both reach the same temperature.",
+          "topic": "Fourier’s Law problem",
+          "hint": "This defines thermal equilibrium.",
+          "answers": [
+            "hotter, colder"
+          ]
+        },
+        {
+          "id": "question-black-body-spectrum-and-wien-s-displacement-law-a-metal-wall-has-an-area-of-1-m-and-a-thickness-of-1-m-the-t-18",
+          "type": "fill",
+          "questionText": "A metal wall has an area of 1 m² and a thickness of 1 m. The temperature on one side is 10 K higher than on the other side. The thermal conductivity is 5 W m⁻¹ K⁻¹. Calculate how much thermal energy passes through the wall per second.",
+          "topic": "Black-body spectrum and Wien’s displacement law",
+          "hint": "This is the exact worked problem from the PPT.",
+          "answers": [
+            "50"
+          ]
+        },
+        {
+          "id": "question-thermal-capacity-as-an-object-gets-hotter-the-wavelength-of-maximum-emission--19",
+          "type": "mc",
+          "questionText": "As an object gets hotter, the wavelength of maximum emission moves toward",
+          "topic": "Thermal capacity",
+          "hint": "The PPT says the light shifts from red toward blue.",
+          "choices": [
+            "longer wavelengths",
+            "shorter wavelengths",
+            "only infrared",
+            "only radio waves"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-physics-complete-the-blank-thermal-capacity-tells-us-how-much-is-nee-20",
+          "type": "fill",
+          "questionText": "Complete the blank: Thermal capacity tells us how much ______ is needed to change an object's temperature.",
+          "topic": "Physics",
+          "hint": "This appears directly in the PPT.",
+          "answers": [
+            "heat"
+          ]
+        }
+      ]
+    }
+  ]
 }
