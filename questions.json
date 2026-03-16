@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-16T13:49:45.007Z",
+  "updatedAt": "2026-03-16T13:49:48.644Z",
   "reviews": [
     {
       "id": "review-badf6631-a00b-49fd-82c0-5333a0d200a3",
@@ -283,6 +283,163 @@
     },
     {
       "id": "review-7885232a-53d4-420f-a7d6-5c62d1ffa5a3",
+      "title": "Unit B.1 Problem-Solving Practice",
+      "topics": [
+        "Kelvin conversion",
+        "Average kinetic energy",
+        "Molecular mass",
+        "Molecular speed",
+        "Fourier’s law",
+        "Wien’s displacement law",
+        "Stefan–Boltzmann law",
+        "Thermal capacity",
+        "Energy"
+      ],
+      "questions": [
+        {
+          "id": "question-kelvin-conversion-a-thermometer-has-l0-3-cm-l100-13-cm-and-lt-8-cm-what-is-the-1",
+          "type": "mc",
+          "questionText": "A thermometer has L0 = 3 cm, L100 = 13 cm, and LT = 8 cm. What is the temperature in °C?",
+          "topic": "Kelvin conversion",
+          "hint": "Compare the measured length with the two fixed points.",
+          "choices": [
+            "40",
+            "45",
+            "50",
+            "60"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-kelvin-conversion-convert-20-c-to-kelvin-2",
+          "type": "mc",
+          "questionText": "Convert 20 °C to kelvin.",
+          "topic": "Kelvin conversion",
+          "hint": "Add 273 to the Celsius temperature.",
+          "choices": [
+            "273 K",
+            "283 K",
+            "293 K",
+            "303 K"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-average-kinetic-energy-convert-50-c-to-kelvin-3",
+          "type": "mc",
+          "questionText": "Convert 50 °C to kelvin.",
+          "topic": "Average kinetic energy",
+          "hint": "Kelvin temperature equals Celsius plus 273.",
+          "choices": [
+            "300 K",
+            "313 K",
+            "323 K",
+            "350 K"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-molecular-mass-the-average-kinetic-energy-of-gas-molecules-increases-when-4",
+          "type": "mc",
+          "questionText": "The average kinetic energy of gas molecules increases when",
+          "topic": "Molecular mass",
+          "hint": "Temperature is related to particle motion.",
+          "choices": [
+            "temperature increases",
+            "temperature decreases",
+            "pressure decreases",
+            "volume decreases"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-molecular-speed-the-molar-mass-of-air-is-0-029-kg-per-mol-using-avogadro-num-5",
+          "type": "mc",
+          "questionText": "The molar mass of air is 0.029 kg per mol. Using Avogadro number 6.0 × 10^23, what is the mass of one molecule?",
+          "topic": "Molecular speed",
+          "hint": "Divide molar mass by Avogadro number.",
+          "choices": [
+            "4.8 × 10^-26 kg",
+            "4.8 × 10^-23 kg",
+            "2.9 × 10^-26 kg",
+            "6.0 × 10^-23 kg"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-fourier-s-law-according-to-kinetic-theory-if-temperature-increases-molecul-6",
+          "type": "mc",
+          "questionText": "According to kinetic theory, if temperature increases, molecular speed",
+          "topic": "Fourier’s law",
+          "hint": "Faster particle motion at higher temperature.",
+          "choices": [
+            "decreases",
+            "stays the same",
+            "increases",
+            "becomes zero"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-wien-s-displacement-law-a-wall-has-thermal-conductivity-5-area-1-m-thickness-1-m-and-7",
+          "type": "mc",
+          "questionText": "A wall has thermal conductivity 5, area 1 m², thickness 1 m, and temperature difference 10 K. What is the rate of heat transfer?",
+          "topic": "Wien’s displacement law",
+          "hint": "Multiply conductivity, area and temperature difference, then divide by thickness.",
+          "choices": [
+            "25 W",
+            "40 W",
+            "50 W",
+            "100 W"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-stefan-boltzmann-law-an-object-emits-radiation-with-peak-wavelength-5-8-10-7-m-wh-8",
+          "type": "mc",
+          "questionText": "An object emits radiation with peak wavelength 5.8 × 10^-7 m. What is the approximate temperature?",
+          "topic": "Stefan–Boltzmann law",
+          "hint": "Peak wavelength decreases as temperature increases.",
+          "choices": [
+            "3000 K",
+            "4000 K",
+            "5000 K",
+            "7000 K"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-thermal-capacity-if-the-temperature-of-a-black-body-doubles-the-radiated-powe-9",
+          "type": "mc",
+          "questionText": "If the temperature of a black body doubles, the radiated power per unit area increases by",
+          "topic": "Thermal capacity",
+          "hint": "Power depends on temperature to the fourth power.",
+          "choices": [
+            "2 times",
+            "4 times",
+            "8 times",
+            "16 times"
+          ],
+          "correctIndex": 3
+        },
+        {
+          "id": "question-energy-an-object-has-thermal-capacity-300-j-k-how-much-heat-energy--10",
+          "type": "mc",
+          "questionText": "An object has thermal capacity 300 J/K. How much heat energy is required to increase its temperature by 4 K?",
+          "topic": "Energy",
+          "hint": "Multiply thermal capacity by temperature change.",
+          "choices": [
+            "600 J",
+            "900 J",
+            "1200 J",
+            "1500 J"
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "review-87aae15d-9e4e-4125-b6a1-d3ad3b9165c0",
       "title": "Unit B.1 Problem-Solving Practice",
       "topics": [
         "Kelvin conversion",
