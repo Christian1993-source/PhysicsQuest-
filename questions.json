@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-24T12:40:09.874Z",
+  "updatedAt": "2026-03-25T19:54:14.249Z",
   "reviews": [
     {
       "id": "review-badf6631-a00b-49fd-82c0-5333a0d200a3",
@@ -1077,6 +1077,689 @@
             "triples"
           ],
           "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "review-2c9a626b-35f4-4154-bd08-09080fcff94e",
+      "title": "Electric Current",
+      "topics": [
+        "Electricity",
+        "Energy",
+        "Physics"
+      ],
+      "questions": [
+        {
+          "id": "question-electricity-electric-current-is-the-flow-of-1",
+          "type": "mc",
+          "questionText": "Electric current is the flow of:",
+          "topic": "Electricity",
+          "hint": "Use the link between current, voltage, and resistance.",
+          "choices": [
+            "Protons",
+            "Neutrons",
+            "Electrons",
+            "Photons"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-electricity-the-unit-of-electric-current-is-2",
+          "type": "mc",
+          "questionText": "The unit of electric current is:",
+          "topic": "Electricity",
+          "hint": "Use the link between current, voltage, and resistance.",
+          "choices": [
+            "Volt",
+            "Ampere",
+            "Watt",
+            "Ohm"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-electricity-current-is-measured-using-a-3",
+          "type": "mc",
+          "questionText": "Current is measured using a:",
+          "topic": "Electricity",
+          "hint": "Use the link between current, voltage, and resistance.",
+          "choices": [
+            "Voltmeter",
+            "Ammeter",
+            "Thermometer",
+            "Barometer"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-electricity-voltage-is-also-called-4",
+          "type": "mc",
+          "questionText": "Voltage is also called:",
+          "topic": "Electricity",
+          "hint": "Use the link between current, voltage, and resistance.",
+          "choices": [
+            "Resistance",
+            "Electric force",
+            "Potential difference",
+            "Energy loss"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-electricity-the-unit-of-voltage-is-5",
+          "type": "mc",
+          "questionText": "The unit of voltage is:",
+          "topic": "Electricity",
+          "hint": "Use the link between current, voltage, and resistance.",
+          "choices": [
+            "Watt",
+            "Joule",
+            "Volt",
+            "Ampere"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-electricity-resistance-is-measured-in-6",
+          "type": "mc",
+          "questionText": "Resistance is measured in:",
+          "topic": "Electricity",
+          "hint": "Use the link between current, voltage, and resistance.",
+          "choices": [
+            "Ohms",
+            "Watts",
+            "Amperes",
+            "Volts"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-energy-electric-power-is-the-rate-of-7",
+          "type": "mc",
+          "questionText": "Electric power is the rate of:",
+          "topic": "Energy",
+          "hint": "Identify the energy store or transfer involved.",
+          "choices": [
+            "Charge storage",
+            "Energy conversion",
+            "Resistance increase",
+            "Temperature decrease"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-energy-the-unit-of-electric-power-is-8",
+          "type": "mc",
+          "questionText": "The unit of electric power is:",
+          "topic": "Energy",
+          "hint": "Identify the energy store or transfer involved.",
+          "choices": [
+            "Joule",
+            "Watt",
+            "Ampere",
+            "Ohm"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-physics-one-watt-is-equal-to-9",
+          "type": "mc",
+          "questionText": "One watt is equal to:",
+          "topic": "Physics",
+          "hint": "Look for the main physics idea in the question stem.",
+          "choices": [
+            "1 volt",
+            "1 ampere",
+            "1 joule per second",
+            "1 coulomb"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-energy-power-can-be-calculated-using-10",
+          "type": "mc",
+          "questionText": "Power can be calculated using:",
+          "topic": "Energy",
+          "hint": "Identify the energy store or transfer involved.",
+          "choices": [
+            "P = IV",
+            "P = IR",
+            "P = V/R",
+            "P = I²"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-energy-if-current-increases-power-will-11",
+          "type": "mc",
+          "questionText": "If current increases, power will:",
+          "topic": "Energy",
+          "hint": "Identify the energy store or transfer involved.",
+          "choices": [
+            "Decrease",
+            "Stay zero",
+            "Increase",
+            "Reverse"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-energy-if-voltage-increases-power-will-12",
+          "type": "mc",
+          "questionText": "If voltage increases, power will:",
+          "topic": "Energy",
+          "hint": "Identify the energy store or transfer involved.",
+          "choices": [
+            "Increase",
+            "Become negative",
+            "Stay constant",
+            "Disappear"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-electricity-electric-current-moves-through-a-13",
+          "type": "mc",
+          "questionText": "Electric current moves through a:",
+          "topic": "Electricity",
+          "hint": "Use the link between current, voltage, and resistance.",
+          "choices": [
+            "Insulator",
+            "Conductor",
+            "Magnet",
+            "Vacuum"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-physics-copper-is-a-14",
+          "type": "mc",
+          "questionText": "Copper is a:",
+          "topic": "Physics",
+          "hint": "Look for the main physics idea in the question stem.",
+          "choices": [
+            "Poor conductor",
+            "Good conductor",
+            "Gas",
+            "Semiconductor"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-physics-rubber-is-a-15",
+          "type": "mc",
+          "questionText": "Rubber is a:",
+          "topic": "Physics",
+          "hint": "Look for the main physics idea in the question stem.",
+          "choices": [
+            "Conductor",
+            "Superconductor",
+            "Insulator",
+            "Battery"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-physics-a-battery-provides-16",
+          "type": "mc",
+          "questionText": "A battery provides:",
+          "topic": "Physics",
+          "hint": "Look for the main physics idea in the question stem.",
+          "choices": [
+            "Resistance",
+            "Voltage",
+            "Current storage",
+            "Light"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-electricity-a-closed-circuit-allows-current-to-17",
+          "type": "mc",
+          "questionText": "A closed circuit allows current to:",
+          "topic": "Electricity",
+          "hint": "Use the link between current, voltage, and resistance.",
+          "choices": [
+            "Stop",
+            "Flow",
+            "Freeze",
+            "Burn"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-electricity-an-open-circuit-causes-current-to-18",
+          "type": "mc",
+          "questionText": "An open circuit causes current to:",
+          "topic": "Electricity",
+          "hint": "Use the link between current, voltage, and resistance.",
+          "choices": [
+            "Increase",
+            "Flow faster",
+            "Stop",
+            "Multiply"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-energy-a-light-bulb-converts-electrical-energy-mainly-into-19",
+          "type": "mc",
+          "questionText": "A light bulb converts electrical energy mainly into:",
+          "topic": "Energy",
+          "hint": "Identify the energy store or transfer involved.",
+          "choices": [
+            "Sound",
+            "Light and heat",
+            "Mass",
+            "Gravity"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-energy-most-energy-in-an-incandescent-bulb-becomes-20",
+          "type": "mc",
+          "questionText": "Most energy in an incandescent bulb becomes:",
+          "topic": "Energy",
+          "hint": "Identify the energy store or transfer involved.",
+          "choices": [
+            "Light",
+            "Heat",
+            "Magnetism",
+            "Motion"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-physics-a-100-w-bulb-is-brighter-than-a-60-w-bulb-because-21",
+          "type": "mc",
+          "questionText": "A 100-W bulb is brighter than a 60-W bulb because:",
+          "topic": "Physics",
+          "hint": "Look for the main physics idea in the question stem.",
+          "choices": [
+            "It has more resistance",
+            "It uses more power",
+            "It has less voltage",
+            "It is colder"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-energy-power-depends-on-22",
+          "type": "mc",
+          "questionText": "Power depends on:",
+          "topic": "Energy",
+          "hint": "Identify the energy store or transfer involved.",
+          "choices": [
+            "Current and voltage",
+            "Mass and speed",
+            "Temperature and pressure",
+            "Distance and time"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-energy-if-current-is-2-a-and-voltage-is-5-v-power-is-23",
+          "type": "mc",
+          "questionText": "If current is 2 A and voltage is 5 V, power is:",
+          "topic": "Energy",
+          "hint": "Identify the energy store or transfer involved.",
+          "choices": [
+            "3 W",
+            "7 W",
+            "10 W",
+            "15 W"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-energy-if-voltage-is-10-v-and-current-is-1-a-power-is-24",
+          "type": "mc",
+          "questionText": "If voltage is 10 V and current is 1 A, power is:",
+          "topic": "Energy",
+          "hint": "Identify the energy store or transfer involved.",
+          "choices": [
+            "5 W",
+            "10 W",
+            "20 W",
+            "30 W"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-electricity-electric-charge-moves-because-of-25",
+          "type": "mc",
+          "questionText": "Electric charge moves because of:",
+          "topic": "Electricity",
+          "hint": "Use the link between current, voltage, and resistance.",
+          "choices": [
+            "Gravity",
+            "Magnetic force",
+            "Voltage difference",
+            "Friction"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-electricity-the-symbol-for-current-is-26",
+          "type": "mc",
+          "questionText": "The symbol for current is:",
+          "topic": "Electricity",
+          "hint": "Use the link between current, voltage, and resistance.",
+          "choices": [
+            "V",
+            "R",
+            "I",
+            "P"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-electricity-the-symbol-for-voltage-is-27",
+          "type": "mc",
+          "questionText": "The symbol for voltage is:",
+          "topic": "Electricity",
+          "hint": "Use the link between current, voltage, and resistance.",
+          "choices": [
+            "V",
+            "I",
+            "W",
+            "Q"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-energy-the-symbol-for-power-is-28",
+          "type": "mc",
+          "questionText": "The symbol for power is:",
+          "topic": "Energy",
+          "hint": "Identify the energy store or transfer involved.",
+          "choices": [
+            "R",
+            "P",
+            "I",
+            "T"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-electricity-the-symbol-for-resistance-is-29",
+          "type": "mc",
+          "questionText": "The symbol for resistance is:",
+          "topic": "Electricity",
+          "hint": "Use the link between current, voltage, and resistance.",
+          "choices": [
+            "V",
+            "I",
+            "R",
+            "E"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-electricity-more-resistance-means-current-will-30",
+          "type": "mc",
+          "questionText": "More resistance means current will:",
+          "topic": "Electricity",
+          "hint": "Use the link between current, voltage, and resistance.",
+          "choices": [
+            "Increase",
+            "Stay same",
+            "Decrease",
+            "Explode"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-electricity-less-resistance-means-current-will-31",
+          "type": "mc",
+          "questionText": "Less resistance means current will:",
+          "topic": "Electricity",
+          "hint": "Use the link between current, voltage, and resistance.",
+          "choices": [
+            "Decrease",
+            "Increase",
+            "Stop",
+            "Reverse"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-electricity-electric-circuits-must-be-32",
+          "type": "mc",
+          "questionText": "Electric circuits must be:",
+          "topic": "Electricity",
+          "hint": "Use the link between current, voltage, and resistance.",
+          "choices": [
+            "Frozen",
+            "Painted",
+            "Complete",
+            "Circular only"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-energy-a-device-that-uses-electrical-energy-is-called-a-33",
+          "type": "mc",
+          "questionText": "A device that uses electrical energy is called a:",
+          "topic": "Energy",
+          "hint": "Identify the energy store or transfer involved.",
+          "choices": [
+            "Source",
+            "Load",
+            "Switch",
+            "Wire"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-physics-switches-are-used-to-34",
+          "type": "mc",
+          "questionText": "Switches are used to:",
+          "topic": "Physics",
+          "hint": "Look for the main physics idea in the question stem.",
+          "choices": [
+            "Create voltage",
+            "Control current",
+            "Increase power",
+            "Measure resistance"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-energy-electric-energy-is-measured-in-35",
+          "type": "mc",
+          "questionText": "Electric energy is measured in:",
+          "topic": "Energy",
+          "hint": "Identify the energy store or transfer involved.",
+          "choices": [
+            "Joules",
+            "Ohms",
+            "Watts",
+            "Amperes"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-energy-power-tells-us-how-36",
+          "type": "mc",
+          "questionText": "Power tells us how:",
+          "topic": "Energy",
+          "hint": "Identify the energy store or transfer involved.",
+          "choices": [
+            "Heavy a wire is",
+            "Fast energy is used",
+            "Long current travels",
+            "Hot electrons are"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-energy-if-power-doubles-brightness-usually-37",
+          "type": "mc",
+          "questionText": "If power doubles, brightness usually:",
+          "topic": "Energy",
+          "hint": "Identify the energy store or transfer involved.",
+          "choices": [
+            "Decreases",
+            "Stays same",
+            "Increases",
+            "Disappears"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-electricity-a-fuse-protects-a-circuit-by-38",
+          "type": "mc",
+          "questionText": "A fuse protects a circuit by:",
+          "topic": "Electricity",
+          "hint": "Use the link between current, voltage, and resistance.",
+          "choices": [
+            "Adding resistance",
+            "Increasing voltage",
+            "Breaking when current is too high",
+            "Cooling the wire"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-physics-thin-wires-have-39",
+          "type": "mc",
+          "questionText": "Thin wires have:",
+          "topic": "Physics",
+          "hint": "Look for the main physics idea in the question stem.",
+          "choices": [
+            "Low resistance",
+            "High resistance",
+            "No resistance",
+            "Infinite voltage"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-physics-thick-wires-have-40",
+          "type": "mc",
+          "questionText": "Thick wires have:",
+          "topic": "Physics",
+          "hint": "Look for the main physics idea in the question stem.",
+          "choices": [
+            "More resistance",
+            "Less resistance",
+            "No current",
+            "Zero energy"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-electricity-electric-current-direction-is-defined-as-41",
+          "type": "mc",
+          "questionText": "Electric current direction is defined as:",
+          "topic": "Electricity",
+          "hint": "Use the link between current, voltage, and resistance.",
+          "choices": [
+            "Electron flow",
+            "Proton flow",
+            "Positive charge flow",
+            "Light flow"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-physics-a-voltmeter-is-connected-42",
+          "type": "mc",
+          "questionText": "A voltmeter is connected:",
+          "topic": "Physics",
+          "hint": "Look for the main physics idea in the question stem.",
+          "choices": [
+            "In series",
+            "In parallel",
+            "To ground only",
+            "To battery center"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-physics-an-ammeter-is-connected-43",
+          "type": "mc",
+          "questionText": "An ammeter is connected:",
+          "topic": "Physics",
+          "hint": "Look for the main physics idea in the question stem.",
+          "choices": [
+            "In parallel",
+            "In series",
+            "Outside circuit",
+            "To insulation"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-energy-power-used-by-devices-appears-on-44",
+          "type": "mc",
+          "questionText": "Power used by devices appears on:",
+          "topic": "Energy",
+          "hint": "Identify the energy store or transfer involved.",
+          "choices": [
+            "Wire color",
+            "Watt rating label",
+            "Battery shape",
+            "Switch size"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-physics-led-bulbs-use-45",
+          "type": "mc",
+          "questionText": "LED bulbs use:",
+          "topic": "Physics",
+          "hint": "Look for the main physics idea in the question stem.",
+          "choices": [
+            "More heat",
+            "Less power",
+            "No voltage",
+            "No current"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-electricity-electric-current-can-produce-46",
+          "type": "mc",
+          "questionText": "Electric current can produce:",
+          "topic": "Electricity",
+          "hint": "Use the link between current, voltage, and resistance.",
+          "choices": [
+            "Light",
+            "Sound only",
+            "Gravity",
+            "Mass"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-electricity-when-a-bulb-is-off-current-is-47",
+          "type": "mc",
+          "questionText": "When a bulb is off, current is:",
+          "topic": "Electricity",
+          "hint": "Use the link between current, voltage, and resistance.",
+          "choices": [
+            "Maximum",
+            "Negative",
+            "Zero",
+            "Infinite"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-energy-electric-power-is-highest-when-48",
+          "type": "mc",
+          "questionText": "Electric power is highest when:",
+          "topic": "Energy",
+          "hint": "Identify the energy store or transfer involved.",
+          "choices": [
+            "Current and voltage are high",
+            "Current is zero",
+            "Voltage is zero",
+            "Resistance is infinite"
+          ],
+          "correctIndex": 0
         }
       ]
     }
