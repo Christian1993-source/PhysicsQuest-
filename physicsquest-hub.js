@@ -1,13 +1,14 @@
-const STORAGE_KEY = "physicsQuestHub.state.v1";
+const STORAGE_KEY = "physicsQuestHub.state.v2";
 const LEGACY_STORAGE_KEY = "physicsQuestHub.reviews.v1";
 const GITHUB_SYNC_KEY = "physicsQuestHub.githubSync.v1";
 const PUBLISHED_FILE_PATH = "questions.json";
 const GITHUB_API_BASE = "https://api.github.com";
 const TEACHER_PASSWORD = "tutorias2026";
+const TEACHER_PASSWORD_ALIASES = [TEACHER_PASSWORD, "tutoria2026", "tutoría2026"];
 const LEGACY_KEYS = {
-  reviews: "chemPrepMyp.reviews.v1",
-  bank: "chemPrepMyp.bank.v1",
-  overview: "chemPrepMyp.overview.v1"
+  reviews: "physicsPrepMyp.reviews.v1",
+  bank: "physicsPrepMyp.bank.v1",
+  overview: "physicsPrepMyp.overview.v1"
 };
 
 const LETTERS = ["A", "B", "C", "D"];
@@ -86,6 +87,7 @@ function showStudentView(viewId) {
   adminViews.forEach((view) => {
     view.classList.remove("is-active");
   });
+  resetPageScroll();
 }
 
 function showAdminView(viewId) {
@@ -94,6 +96,17 @@ function showAdminView(viewId) {
   });
   studentViews.forEach((view) => {
     view.classList.remove("is-active");
+  });
+  resetPageScroll();
+}
+
+function resetPageScroll() {
+  window.requestAnimationFrame(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "auto"
+    });
   });
 }
 
@@ -107,7 +120,7 @@ function requestTeacherAccess() {
     return false;
   }
 
-  if (enteredPassword !== TEACHER_PASSWORD) {
+  if (!TEACHER_PASSWORD_ALIASES.includes(enteredPassword.trim())) {
     window.alert("Incorrect teacher password.");
     return false;
   }
@@ -293,26 +306,28 @@ function extractFirstNumber(value) {
 
 function inferTopic(prompt) {
   const text = String(prompt || "").toLowerCase();
-  if (/(speed|velocity|distance|displacement|time|acceleration|motion|position)/.test(text)) return "Motion";
-  if (/(force|newton|friction|gravity|mass|weight|resultant|balanced|unbalanced)/.test(text)) return "Forces";
-  if (/(energy|kinetic|potential|work done|power|efficiency|transfer|store)/.test(text)) return "Energy";
-  if (/(wave|frequency|wavelength|amplitude|sound|light|electromagnetic)/.test(text)) return "Waves";
-  if (/(current|voltage|resistance|circuit|series|parallel|charge|electric)/.test(text)) return "Electricity";
-  if (/(pressure|density|upthrust|fluid|float|sink|gas pressure)/.test(text)) return "Matter and pressure";
+  if (/(force|newton|mass|weight|friction|gravity|net force)/.test(text)) return "Forces";
+  if (/(speed|velocity|acceleration|distance|displacement|time|motion|graph)/.test(text)) return "Motion";
+  if (/(energy|work|power|joule|kinetic|potential|thermal|conservation of energy)/.test(text)) return "Energy";
+  if (/(wave|frequency|wavelength|amplitude|period|sound|light)/.test(text)) return "Waves";
+  if (/(current|voltage|resistance|circuit|ohm|charge|series|parallel)/.test(text)) return "Electricity";
+  if (/(pressure|density|fluid|buoyancy|pascal|volume)/.test(text)) return "Matter and pressure";
+  if (/(momentum|impulse|collision)/.test(text)) return "Momentum";
   return "Physics";
 }
 
 function defaultHintFor(question) {
   const topic = question.topic || inferTopic(question.questionText || question.prompt);
   if (question.type === "numeric") {
-    return "Write the equation first, then substitute values carefully.";
+    return "Set up the relationship first, then calculate carefully.";
   }
-  if (topic === "Motion") return "Look for the relationship between distance, time, speed, and acceleration.";
-  if (topic === "Forces") return "Think about the net force acting on the object.";
-  if (topic === "Energy") return "Identify the energy store or transfer involved.";
-  if (topic === "Waves") return "Focus on amplitude, frequency, or wavelength.";
-  if (topic === "Electricity") return "Use the link between current, voltage, and resistance.";
-  if (topic === "Matter and pressure") return "Think about density, pressure, and fluid behavior.";
+  if (topic === "Forces") return "Draw the forces first, then decide the net effect.";
+  if (topic === "Motion") return "Identify the known quantities and choose the matching motion relationship.";
+  if (topic === "Energy") return "Track how energy is stored or transferred.";
+  if (topic === "Waves") return "Connect frequency, wavelength, speed, and amplitude carefully.";
+  if (topic === "Electricity") return "Use the circuit quantities and their units.";
+  if (topic === "Matter and pressure") return "Look at force, area, density, and volume.";
+  if (topic === "Momentum") return "Momentum depends on mass and velocity.";
   return "Look for the main physics idea in the question stem.";
 }
 
