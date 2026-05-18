@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-18T17:36:57.975Z",
+  "updatedAt": "2026-05-18T17:38:19.562Z",
   "reviews": [
     {
       "id": "review-be36d10c-0e56-4c70-b4ac-d991e7489631",
@@ -1399,6 +1399,306 @@
             "Mass"
           ],
           "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "review-49ce8b2a-bf0c-49ee-a1d3-024699ea2a28",
+      "title": "Unit 5: Greenhouse Effect",
+      "topics": [
+        "Greenhouse Effect",
+        "Greenhouse Gases",
+        "Emissivity",
+        "Albedo",
+        "Earth’s Albedo",
+        "Solar Constant",
+        "Incoming Solar Intensity",
+        "Infrared Radiation",
+        "Molecular Energy Levels",
+        "Re-emission",
+        "Enhanced Greenhouse Effect",
+        "Physics"
+      ],
+      "questions": [
+        {
+          "id": "question-greenhouse-effect-the-greenhouse-effect-is-related-to-conservation-of-energy-b-1",
+          "type": "mc",
+          "questionText": "The greenhouse effect is related to conservation of energy because energy:",
+          "topic": "Greenhouse Effect",
+          "hint": "Energy is not created or destroyed, but it can be transferred or transformed.",
+          "choices": [
+            "Is created by greenhouse gases",
+            "Disappears in the atmosphere",
+            "Is absorbed, reflected, emitted, or transferred",
+            "Only exists inside Earth"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-greenhouse-gases-the-greenhouse-effect-helps-keep-earth-2",
+          "type": "mc",
+          "questionText": "The greenhouse effect helps keep Earth:",
+          "topic": "Greenhouse Gases",
+          "hint": "Greenhouse gases absorb and re-emit infrared radiation.",
+          "choices": [
+            "Warmer than it would be without greenhouse gases",
+            "Completely frozen at all times",
+            "Without an atmosphere",
+            "Without incoming sunlight"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-greenhouse-gases-which-gas-is-a-greenhouse-gas-3",
+          "type": "mc",
+          "questionText": "Which gas is a greenhouse gas?",
+          "topic": "Greenhouse Gases",
+          "hint": "CO₂ absorbs infrared radiation.",
+          "choices": [
+            "Helium",
+            "Carbon dioxide",
+            "Neon",
+            "Argon"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-emissivity-which-list-contains-only-greenhouse-gases-4",
+          "type": "mc",
+          "questionText": "Which list contains only greenhouse gases?",
+          "topic": "Emissivity",
+          "hint": "Greenhouse gases include carbon dioxide, methane, water vapor, and nitrous oxide.",
+          "choices": [
+            "CO₂, CH₄, H₂O, N₂O",
+            "He, Ne, Ar, Kr",
+            "NaCl, H₂, O₂, Fe",
+            "N₂, O₂, Ar, He"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-emissivity-emissivity-compares-the-radiation-emitted-by-a-surface-to-5",
+          "type": "mc",
+          "questionText": "Emissivity compares the radiation emitted by a surface to:",
+          "topic": "Emissivity",
+          "hint": "An ideal black body is a perfect emitter.",
+          "choices": [
+            "The radiation emitted by an ideal black body at the same temperature",
+            "The mass of the surface",
+            "The volume of the atmosphere",
+            "The density of the gas"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-emissivity-an-ideal-black-body-has-an-emissivity-of-6",
+          "type": "mc",
+          "questionText": "An ideal black body has an emissivity of:",
+          "topic": "Emissivity",
+          "hint": "A perfect emitter has emissivity equal to 1.",
+          "choices": [
+            "0",
+            "0.5",
+            "1",
+            "100"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-emissivity-if-a-surface-radiates-300-w-m-and-an-ideal-black-body-at-the-7",
+          "type": "mc",
+          "questionText": "If a surface radiates 300 W/m² and an ideal black body at the same temperature radiates 600 W/m², what is its emissivity?",
+          "topic": "Emissivity",
+          "hint": "Emissivity = radiated power per unit area ÷ ideal black body power per unit area.",
+          "choices": [
+            "0.25",
+            "0.50",
+            "1.00",
+            "2.00"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-albedo-if-emissivity-is-0-80-and-an-ideal-black-body-radiates-500-w-8",
+          "type": "mc",
+          "questionText": "If emissivity is 0.80 and an ideal black body radiates 500 W/m², how much power per unit area does the surface radiate?",
+          "topic": "Albedo",
+          "hint": "Surface radiation = emissivity × ideal black body radiation.",
+          "choices": [
+            "100 W/m²",
+            "250 W/m²",
+            "400 W/m²",
+            "625 W/m²"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-albedo-albedo-measures-how-much-incoming-radiation-is-9",
+          "type": "mc",
+          "questionText": "Albedo measures how much incoming radiation is:",
+          "topic": "Albedo",
+          "hint": "High albedo means more radiation is reflected.",
+          "choices": [
+            "Absorbed",
+            "Reflected or scattered",
+            "Converted into sound",
+            "Stored as mass"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-albedo-the-formula-for-albedo-is-10",
+          "type": "mc",
+          "questionText": "The formula for albedo is:",
+          "topic": "Albedo",
+          "hint": "Albedo compares reflected energy to incoming energy.",
+          "choices": [
+            "Total scattered power ÷ total incident power",
+            "Total incident power ÷ total scattered power",
+            "Mass ÷ volume",
+            "Power ÷ time"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-albedo-if-a-surface-receives-1000-w-and-reflects-300-w-what-is-its--11",
+          "type": "mc",
+          "questionText": "If a surface receives 1000 W and reflects 300 W, what is its albedo?",
+          "topic": "Albedo",
+          "hint": "Albedo = reflected power ÷ incoming power.",
+          "choices": [
+            "0.30",
+            "0.70",
+            "3.00",
+            "300"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-earth-s-albedo-a-surface-has-an-albedo-of-0-60-if-800-w-is-incident-on-it-h-12",
+          "type": "mc",
+          "questionText": "A surface has an albedo of 0.60. If 800 W is incident on it, how much power is reflected?",
+          "topic": "Earth’s Albedo",
+          "hint": "Reflected power = albedo × incident power.",
+          "choices": [
+            "240 W",
+            "320 W",
+            "480 W",
+            "800 W"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-solar-constant-earth-s-albedo-changes-because-of-13",
+          "type": "mc",
+          "questionText": "Earth’s albedo changes because of:",
+          "topic": "Solar Constant",
+          "hint": "Clouds and surface type affect reflection.",
+          "choices": [
+            "Cloud formations and latitude",
+            "Only the Moon",
+            "Only ocean depth",
+            "The number of stars"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-incoming-solar-intensity-the-solar-constant-s-represents-14",
+          "type": "mc",
+          "questionText": "The solar constant S represents:",
+          "topic": "Incoming Solar Intensity",
+          "hint": "Solar constant is related to incoming solar radiation.",
+          "choices": [
+            "The average density of Earth",
+            "The incoming solar power per unit area near Earth",
+            "The mass of the Sun",
+            "The temperature of the ocean"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-infrared-radiation-because-earth-is-a-sphere-the-mean-incoming-solar-intensity--15",
+          "type": "mc",
+          "questionText": "Because Earth is a sphere, the mean incoming solar intensity is:",
+          "topic": "Infrared Radiation",
+          "hint": "The incoming radiation is spread over Earth’s spherical surface.",
+          "choices": [
+            "S",
+            "2S",
+            "S/2",
+            "S/4"
+          ],
+          "correctIndex": 3
+        },
+        {
+          "id": "question-molecular-energy-levels-greenhouse-gases-mainly-absorb-16",
+          "type": "mc",
+          "questionText": "Greenhouse gases mainly absorb:",
+          "topic": "Molecular Energy Levels",
+          "hint": "Earth emits much of its energy as infrared radiation.",
+          "choices": [
+            "Gamma rays",
+            "Infrared radiation",
+            "Alpha particles",
+            "Sound waves"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-re-emission-greenhouse-gases-absorb-infrared-radiation-because-their-mol-17",
+          "type": "mc",
+          "questionText": "Greenhouse gases absorb infrared radiation because their molecules have:",
+          "topic": "Re-emission",
+          "hint": "Molecular vibrations and rotations can absorb infrared energy.",
+          "choices": [
+            "Energy levels that can interact with infrared radiation",
+            "No motion at all",
+            "No electrons",
+            "No bonds"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-enhanced-greenhouse-effect-after-absorbing-infrared-radiation-greenhouse-gases-18",
+          "type": "mc",
+          "questionText": "After absorbing infrared radiation, greenhouse gases:",
+          "topic": "Enhanced Greenhouse Effect",
+          "hint": "Some emitted radiation returns toward Earth’s surface.",
+          "choices": [
+            "Destroy the radiation completely",
+            "Emit radiation in all directions",
+            "Only emit radiation upward",
+            "Become solid immediately"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-greenhouse-effect-the-enhanced-greenhouse-effect-is-caused-mainly-by-19",
+          "type": "mc",
+          "questionText": "The enhanced greenhouse effect is caused mainly by:",
+          "topic": "Greenhouse Effect",
+          "hint": "Burning fossil fuels and agriculture can increase greenhouse gases.",
+          "choices": [
+            "Human activities increasing greenhouse gas concentrations",
+            "The disappearance of gravity",
+            "The Moon blocking sunlight",
+            "The ocean stopping evaporation"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-physics-methane-has-the-chemical-formula-20",
+          "type": "mc",
+          "questionText": "Methane has the chemical formula:",
+          "topic": "Physics",
+          "hint": "Methane contains carbon and hydrogen.",
+          "choices": [
+            "CO₂",
+            "H₂O",
+            "CH₄",
+            "N₂O"
+          ],
+          "correctIndex": 2
         }
       ]
     }
