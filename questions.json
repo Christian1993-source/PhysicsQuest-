@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-18T17:35:02.093Z",
+  "updatedAt": "2026-05-18T17:36:27.293Z",
   "reviews": [
     {
       "id": "review-be36d10c-0e56-4c70-b4ac-d991e7489631",
@@ -1022,6 +1022,382 @@
             "The speed of a reaction",
             "The mass of one mole",
             "The acceleration of a falling object"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "review-89bd33fb-5b6a-4871-86a6-87aad0a5e02c",
+      "title": "Unit 5: Thermal Energy Transfers",
+      "topics": [
+        "Molecular Theory",
+        "Density",
+        "Temperature Scales",
+        "Kelvin",
+        "Temperature Change",
+        "Average Kinetic Energy",
+        "Internal Energy",
+        "Thermal Energy Transfer",
+        "Phase Change",
+        "Specific Heat Capacity",
+        "Latent Heat",
+        "Conduction",
+        "Convection",
+        "Radiation",
+        "Stefan-Boltzmann Law",
+        "Apparent Brightness",
+        "Wien's Law",
+        "Motion"
+      ],
+      "questions": [
+        {
+          "id": "question-molecular-theory-according-to-molecular-theory-particles-in-a-solid-1",
+          "type": "mc",
+          "questionText": "According to molecular theory, particles in a solid:",
+          "topic": "Molecular Theory",
+          "hint": "In solids, particles are close together and vibrate in place.",
+          "choices": [
+            "Move freely around the container",
+            "Vibrate around fixed positions",
+            "Have no kinetic energy",
+            "Are always far apart"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-density-particles-in-a-gas-usually-2",
+          "type": "mc",
+          "questionText": "Particles in a gas usually:",
+          "topic": "Density",
+          "hint": "Gas particles move randomly and spread out.",
+          "choices": [
+            "Are fixed in place",
+            "Move freely and are far apart",
+            "Cannot collide",
+            "Have no motion"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-density-density-is-calculated-using-3",
+          "type": "mc",
+          "questionText": "Density is calculated using:",
+          "topic": "Density",
+          "hint": "Density is mass divided by volume.",
+          "choices": [
+            "ρ = m/V",
+            "ρ = V/m",
+            "ρ = mcΔT",
+            "ρ = mL"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-density-an-object-has-a-mass-of-20-g-and-a-volume-of-5-cm-what-is-it-4",
+          "type": "mc",
+          "questionText": "An object has a mass of 20 g and a volume of 5 cm³. What is its density?",
+          "topic": "Density",
+          "hint": "Use ρ = m/V.",
+          "choices": [
+            "2 g/cm³",
+            "4 g/cm³",
+            "10 g/cm³",
+            "25 g/cm³"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-temperature-scales-a-liquid-has-a-mass-of-60-g-and-a-volume-of-20-ml-what-is-it-5",
+          "type": "mc",
+          "questionText": "A liquid has a mass of 60 g and a volume of 20 mL. What is its density?",
+          "topic": "Temperature Scales",
+          "hint": "Divide mass by volume.",
+          "choices": [
+            "3 g/mL",
+            "20 g/mL",
+            "40 g/mL",
+            "80 g/mL"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-kelvin-temperature-in-science-can-be-measured-using-6",
+          "type": "mc",
+          "questionText": "Temperature in science can be measured using:",
+          "topic": "Kelvin",
+          "hint": "Kelvin and Celsius are temperature scales.",
+          "choices": [
+            "Kelvin and Celsius",
+            "Newtons and joules",
+            "Watts and meters",
+            "Kilograms and seconds"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-temperature-change-the-kelvin-scale-is-important-because-it-measures-temperatur-7",
+          "type": "mc",
+          "questionText": "The Kelvin scale is important because it measures temperature from:",
+          "topic": "Temperature Change",
+          "hint": "Absolute zero is 0 K.",
+          "choices": [
+            "The freezing point of water",
+            "Absolute zero",
+            "Room temperature",
+            "The boiling point of water"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-average-kinetic-energy-a-temperature-change-of-10-c-is-equal-to-a-temperature-chang-8",
+          "type": "mc",
+          "questionText": "A temperature change of 10°C is equal to a temperature change of:",
+          "topic": "Average Kinetic Energy",
+          "hint": "Temperature changes are the same size in Celsius and Kelvin.",
+          "choices": [
+            "10 K",
+            "100 K",
+            "273 K",
+            "283 K"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-internal-energy-kelvin-temperature-is-a-measure-of-the-average-9",
+          "type": "mc",
+          "questionText": "Kelvin temperature is a measure of the average:",
+          "topic": "Internal Energy",
+          "hint": "Higher temperature means particles move faster on average.",
+          "choices": [
+            "Mass of particles",
+            "Kinetic energy of particles",
+            "Volume of particles",
+            "Density of particles"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-thermal-energy-transfer-internal-energy-is-the-total-10",
+          "type": "mc",
+          "questionText": "Internal energy is the total:",
+          "topic": "Thermal Energy Transfer",
+          "hint": "Internal energy includes particle motion and particle interactions.",
+          "choices": [
+            "Random kinetic energy and intermolecular potential energy of particles",
+            "Mass and volume of the system",
+            "Force and acceleration of particles",
+            "Density and pressure only"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-phase-change-thermal-energy-naturally-transfers-from-11",
+          "type": "mc",
+          "questionText": "Thermal energy naturally transfers from:",
+          "topic": "Phase Change",
+          "hint": "Temperature difference determines the direction of thermal energy transfer.",
+          "choices": [
+            "Colder objects to hotter objects",
+            "Hotter objects to colder objects",
+            "Smaller objects to larger objects only",
+            "Denser objects to lighter objects only"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-specific-heat-capacity-during-a-phase-change-temperature-usually-12",
+          "type": "mc",
+          "questionText": "During a phase change, temperature usually:",
+          "topic": "Specific Heat Capacity",
+          "hint": "Energy is used to change state, not temperature.",
+          "choices": [
+            "Stays constant while energy changes particle behavior",
+            "Always increases",
+            "Always decreases",
+            "Becomes zero"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-specific-heat-capacity-which-equation-is-used-to-calculate-thermal-energy-transfer--13",
+          "type": "mc",
+          "questionText": "Which equation is used to calculate thermal energy transfer when temperature changes?",
+          "topic": "Specific Heat Capacity",
+          "hint": "Use Q = mcΔT when there is a temperature change.",
+          "choices": [
+            "Q = mcΔT",
+            "Q = mL",
+            "ρ = m/V",
+            "P = W/t"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-specific-heat-capacity-how-much-energy-is-needed-to-heat-2-kg-of-water-by-5-c-if-c--14",
+          "type": "mc",
+          "questionText": "How much energy is needed to heat 2 kg of water by 5°C if c = 4200 J/kg°C?",
+          "topic": "Specific Heat Capacity",
+          "hint": "Use Q = mcΔT.",
+          "choices": [
+            "4,200 J",
+            "21,000 J",
+            "42,000 J",
+            "84,000 J"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-latent-heat-a-1-kg-object-with-c-500-j-kg-c-is-heated-by-4-c-how-much-en-15",
+          "type": "mc",
+          "questionText": "A 1 kg object with c = 500 J/kg°C is heated by 4°C. How much energy is transferred?",
+          "topic": "Latent Heat",
+          "hint": "Q = mcΔT.",
+          "choices": [
+            "125 J",
+            "500 J",
+            "1,000 J",
+            "2,000 J"
+          ],
+          "correctIndex": 3
+        },
+        {
+          "id": "question-latent-heat-which-equation-is-used-during-a-phase-change-16",
+          "type": "mc",
+          "questionText": "Which equation is used during a phase change?",
+          "topic": "Latent Heat",
+          "hint": "Use Q = mL when temperature stays constant during a phase change.",
+          "choices": [
+            "Q = mL",
+            "Q = mcΔT",
+            "ρ = m/V",
+            "Eₖ = ½mv²"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-thermal-energy-transfer-how-much-energy-is-needed-to-melt-2-kg-of-a-substance-if-l-1-17",
+          "type": "mc",
+          "questionText": "How much energy is needed to melt 2 kg of a substance if L = 100,000 J/kg?",
+          "topic": "Thermal Energy Transfer",
+          "hint": "Use Q = mL.",
+          "choices": [
+            "50,000 J",
+            "100,000 J",
+            "200,000 J",
+            "400,000 J"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-conduction-the-three-main-mechanisms-of-thermal-energy-transfer-are-18",
+          "type": "mc",
+          "questionText": "The three main mechanisms of thermal energy transfer are:",
+          "topic": "Conduction",
+          "hint": "Heat can transfer through direct contact, fluid movement, or electromagnetic waves.",
+          "choices": [
+            "Conduction, convection, and radiation",
+            "Reflection, refraction, and diffraction",
+            "Fusion, fission, and combustion",
+            "Speed, velocity, and acceleration"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-conduction-conduction-happens-mainly-because-particles-19",
+          "type": "mc",
+          "questionText": "Conduction happens mainly because particles:",
+          "topic": "Conduction",
+          "hint": "Conduction happens through particle interactions.",
+          "choices": [
+            "Transfer kinetic energy through collisions",
+            "Move in circular paths only",
+            "Emit light only",
+            "Become weightless"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-convection-in-the-conduction-equation-q-t-ka-t-x-increasing-the-area-a--20",
+          "type": "mc",
+          "questionText": "In the conduction equation ΔQ/Δt = kA(ΔT/Δx), increasing the area A will:",
+          "topic": "Convection",
+          "hint": "A larger area allows more thermal energy to transfer per second.",
+          "choices": [
+            "Decrease the rate of heat transfer",
+            "Increase the rate of heat transfer",
+            "Make heat transfer zero",
+            "Remove the temperature difference"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-radiation-convection-happens-in-fluids-because-21",
+          "type": "mc",
+          "questionText": "Convection happens in fluids because:",
+          "topic": "Radiation",
+          "hint": "Fluids include liquids and gases.",
+          "choices": [
+            "Density differences cause warmer and cooler fluid to move",
+            "Solids cannot vibrate",
+            "Light waves carry no energy",
+            "Particles stop moving"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-stefan-boltzmann-law-thermal-radiation-transfers-energy-by-22",
+          "type": "mc",
+          "questionText": "Thermal radiation transfers energy by:",
+          "topic": "Stefan-Boltzmann Law",
+          "hint": "Radiation can travel through empty space.",
+          "choices": [
+            "Electromagnetic waves",
+            "Direct particle contact only",
+            "Fluid circulation only",
+            "Sound waves only"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-apparent-brightness-the-stefan-boltzmann-law-for-luminosity-is-23",
+          "type": "mc",
+          "questionText": "The Stefan-Boltzmann law for luminosity is:",
+          "topic": "Apparent Brightness",
+          "hint": "Luminosity depends strongly on absolute temperature.",
+          "choices": [
+            "L = σAT⁴",
+            "L = mcΔT",
+            "L = m/V",
+            "L = Fv"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-wien-s-law-apparent-brightness-depends-on-luminosity-and-24",
+          "type": "mc",
+          "questionText": "Apparent brightness depends on luminosity and:",
+          "topic": "Wien's Law",
+          "hint": "A source appears dimmer when it is farther away.",
+          "choices": [
+            "Distance from the observer",
+            "Mass only",
+            "Density only",
+            "Specific heat capacity only"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-motion-wien-s-displacement-law-relates-peak-wavelength-to-25",
+          "type": "mc",
+          "questionText": "Wien's displacement law relates peak wavelength to:",
+          "topic": "Motion",
+          "hint": "Hotter objects emit peak radiation at shorter wavelengths.",
+          "choices": [
+            "Temperature",
+            "Density",
+            "Volume",
+            "Mass"
           ],
           "correctIndex": 0
         }
