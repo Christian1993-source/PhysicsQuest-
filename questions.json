@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-18T17:39:39.975Z",
+  "updatedAt": "2026-05-18T17:42:42.950Z",
   "reviews": [
     {
       "id": "review-be36d10c-0e56-4c70-b4ac-d991e7489631",
@@ -1998,6 +1998,374 @@
             "Low temperature and high pressure",
             "High density and low temperature",
             "Very strong intermolecular forces"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "review-8bd59e80-ea05-4006-b9ab-41d3e9e13af9",
+      "title": "Unit 7: Current and Circuits",
+      "topics": [
+        "Current and Circuits",
+        "Circuit Diagrams",
+        "Electric Current",
+        "Ohm's Law",
+        "Series Circuits",
+        "Parallel Circuits",
+        "Circuit Components",
+        "Resistors",
+        "Circuits",
+        "Electricity"
+      ],
+      "questions": [
+        {
+          "id": "question-current-and-circuits-what-do-cells-provide-in-a-circuit-1",
+          "type": "mc",
+          "questionText": "What do cells provide in a circuit?",
+          "topic": "Current and Circuits",
+          "hint": "A cell provides energy to move charge around a circuit.",
+          "choices": [
+            "A source of emf",
+            "A source of mass",
+            "A source of friction",
+            "A source of gravity"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-current-and-circuits-which-device-can-act-as-an-energy-source-in-a-circuit-2",
+          "type": "mc",
+          "questionText": "Which device can act as an energy source in a circuit?",
+          "topic": "Current and Circuits",
+          "hint": "Chemical cells convert chemical energy into electrical energy.",
+          "choices": [
+            "Resistor",
+            "Chemical cell",
+            "Switch only",
+            "Ammeter only"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-circuit-diagrams-a-solar-cell-converts-light-energy-into-3",
+          "type": "mc",
+          "questionText": "A solar cell converts light energy into:",
+          "topic": "Circuit Diagrams",
+          "hint": "Solar cells can be used as energy sources in circuits.",
+          "choices": [
+            "Sound energy",
+            "Electrical energy",
+            "Gravitational energy",
+            "Nuclear energy"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-electric-current-circuit-diagrams-are-used-to-represent-4",
+          "type": "mc",
+          "questionText": "Circuit diagrams are used to represent:",
+          "topic": "Electric Current",
+          "hint": "Circuit diagrams use symbols to show how components are connected.",
+          "choices": [
+            "The arrangement of circuit components",
+            "The color of wires",
+            "The mass of electrons",
+            "The temperature of a battery"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-electric-current-direct-current-or-dc-current-is-5",
+          "type": "mc",
+          "questionText": "Direct current, or dc current, is:",
+          "topic": "Electric Current",
+          "hint": "Direct current flows in one direction around a circuit.",
+          "choices": [
+            "A flow of charge carriers in one direction",
+            "A flow of water molecules",
+            "A force acting on a magnet",
+            "A type of thermal radiation"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-electric-current-current-is-calculated-using-6",
+          "type": "mc",
+          "questionText": "Current is calculated using:",
+          "topic": "Electric Current",
+          "hint": "Current is charge flow per unit time.",
+          "choices": [
+            "I = Δq/Δt",
+            "V = IR",
+            "R = V/I",
+            "P = IV"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-electric-current-if-12-c-of-charge-flows-past-a-point-in-3-s-what-is-the-curr-7",
+          "type": "mc",
+          "questionText": "If 12 C of charge flows past a point in 3 s, what is the current?",
+          "topic": "Electric Current",
+          "hint": "Use I = Δq/Δt.",
+          "choices": [
+            "4 A",
+            "9 A",
+            "15 A",
+            "36 A"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-electric-current-if-a-current-of-2-a-flows-for-5-s-how-much-charge-passes-thr-8",
+          "type": "mc",
+          "questionText": "If a current of 2 A flows for 5 s, how much charge passes through the circuit?",
+          "topic": "Electric Current",
+          "hint": "Rearrange I = Δq/Δt to Δq = IΔt.",
+          "choices": [
+            "2.5 C",
+            "7 C",
+            "10 C",
+            "25 C"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-ohm-s-law-if-20-c-of-charge-flows-in-4-s-what-is-the-current-9",
+          "type": "mc",
+          "questionText": "If 20 C of charge flows in 4 s, what is the current?",
+          "topic": "Ohm's Law",
+          "hint": "Current = charge ÷ time.",
+          "choices": [
+            "4 A",
+            "5 A",
+            "16 A",
+            "80 A"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-ohm-s-law-ohm-s-law-is-10",
+          "type": "mc",
+          "questionText": "Ohm's law is:",
+          "topic": "Ohm's Law",
+          "hint": "Ohm's law connects voltage, current, and resistance.",
+          "choices": [
+            "V = IR",
+            "I = Δq/Δt",
+            "P = IV",
+            "Rₛ = R₁ + R₂"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-ohm-s-law-a-resistor-has-a-current-of-2-a-and-a-resistance-of-3-what-i-11",
+          "type": "mc",
+          "questionText": "A resistor has a current of 2 A and a resistance of 3 Ω. What is the voltage?",
+          "topic": "Ohm's Law",
+          "hint": "Use V = IR.",
+          "choices": [
+            "1.5 V",
+            "5 V",
+            "6 V",
+            "9 V"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-ohm-s-law-a-12-v-battery-is-connected-to-a-4-resistor-what-is-the-curr-12",
+          "type": "mc",
+          "questionText": "A 12 V battery is connected to a 4 Ω resistor. What is the current?",
+          "topic": "Ohm's Law",
+          "hint": "Rearrange V = IR to I = V/R.",
+          "choices": [
+            "2 A",
+            "3 A",
+            "8 A",
+            "48 A"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-series-circuits-a-resistor-has-a-voltage-of-10-v-and-current-of-2-a-what-is--13",
+          "type": "mc",
+          "questionText": "A resistor has a voltage of 10 V and current of 2 A. What is its resistance?",
+          "topic": "Series Circuits",
+          "hint": "Rearrange V = IR to R = V/I.",
+          "choices": [
+            "2 Ω",
+            "5 Ω",
+            "8 Ω",
+            "20 Ω"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-series-circuits-in-a-series-circuit-the-current-is-14",
+          "type": "mc",
+          "questionText": "In a series circuit, the current is:",
+          "topic": "Series Circuits",
+          "hint": "Series circuits have only one path for current.",
+          "choices": [
+            "The same through each component",
+            "Different through every component",
+            "Zero in all components",
+            "Equal to resistance"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-series-circuits-in-a-series-circuit-total-resistance-is-found-by-15",
+          "type": "mc",
+          "questionText": "In a series circuit, total resistance is found by:",
+          "topic": "Series Circuits",
+          "hint": "For series resistors, Rₛ = R₁ + R₂ + ...",
+          "choices": [
+            "Adding the resistances",
+            "Subtracting the resistances",
+            "Multiplying current by time",
+            "Dividing charge by time"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-series-circuits-two-resistors-of-3-and-5-are-connected-in-series-what-is-the-16",
+          "type": "mc",
+          "questionText": "Two resistors of 3 Ω and 5 Ω are connected in series. What is the total resistance?",
+          "topic": "Series Circuits",
+          "hint": "Add resistances in series.",
+          "choices": [
+            "2 Ω",
+            "8 Ω",
+            "15 Ω",
+            "30 Ω"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-series-circuits-in-a-series-circuit-the-total-voltage-is-17",
+          "type": "mc",
+          "questionText": "In a series circuit, the total voltage is:",
+          "topic": "Series Circuits",
+          "hint": "In series, V = V₁ + V₂ + ...",
+          "choices": [
+            "The sum of the voltages across each component",
+            "Always zero",
+            "Equal to only the smallest voltage",
+            "Equal to resistance"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-parallel-circuits-a-series-circuit-has-voltage-drops-of-4-v-and-6-v-what-is-th-18",
+          "type": "mc",
+          "questionText": "A series circuit has voltage drops of 4 V and 6 V. What is the total voltage?",
+          "topic": "Parallel Circuits",
+          "hint": "Add the voltage drops in a series circuit.",
+          "choices": [
+            "2 V",
+            "10 V",
+            "24 V",
+            "46 V"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-parallel-circuits-in-a-parallel-circuit-components-are-connected-in-19",
+          "type": "mc",
+          "questionText": "In a parallel circuit, components are connected in:",
+          "topic": "Parallel Circuits",
+          "hint": "Parallel circuits allow current to split.",
+          "choices": [
+            "More than one path",
+            "Only one path",
+            "A single straight line only",
+            "No complete path"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-parallel-circuits-in-a-parallel-circuit-the-voltage-across-each-branch-is-20",
+          "type": "mc",
+          "questionText": "In a parallel circuit, the voltage across each branch is:",
+          "topic": "Parallel Circuits",
+          "hint": "Parallel branches share the same potential difference.",
+          "choices": [
+            "The same",
+            "Always different",
+            "Always zero",
+            "Equal to charge"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-circuit-components-two-identical-resistors-are-connected-in-parallel-compared-w-21",
+          "type": "mc",
+          "questionText": "Two identical resistors are connected in parallel. Compared with one resistor alone, the total resistance is:",
+          "topic": "Circuit Components",
+          "hint": "Adding parallel branches gives current more paths.",
+          "choices": [
+            "Lower",
+            "Higher",
+            "The same",
+            "Infinite"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-circuit-components-which-component-is-used-to-measure-current-22",
+          "type": "mc",
+          "questionText": "Which component is used to measure current?",
+          "topic": "Circuit Components",
+          "hint": "An ammeter is connected in series to measure current.",
+          "choices": [
+            "Ammeter",
+            "Voltmeter",
+            "Resistor",
+            "Switch"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-resistors-which-component-is-used-to-measure-voltage-23",
+          "type": "mc",
+          "questionText": "Which component is used to measure voltage?",
+          "topic": "Resistors",
+          "hint": "A voltmeter is connected in parallel across a component.",
+          "choices": [
+            "Ammeter",
+            "Voltmeter",
+            "Cell",
+            "Wire"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-circuits-a-resistor-is-used-to-24",
+          "type": "mc",
+          "questionText": "A resistor is used to:",
+          "topic": "Circuits",
+          "hint": "Higher resistance makes it harder for charge to flow.",
+          "choices": [
+            "Limit or control current",
+            "Store chemical energy only",
+            "Measure time",
+            "Create gravity"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-electricity-for-current-to-flow-a-circuit-must-be-25",
+          "type": "mc",
+          "questionText": "For current to flow, a circuit must be:",
+          "topic": "Electricity",
+          "hint": "Charges need a complete path to move.",
+          "choices": [
+            "Complete or closed",
+            "Broken",
+            "Open",
+            "Missing a power source"
           ],
           "correctIndex": 0
         }
