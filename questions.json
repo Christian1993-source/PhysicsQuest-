@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-18T20:07:06.705Z",
+  "updatedAt": "2026-05-18T20:07:57.692Z",
   "reviews": [
     {
       "id": "review-be36d10c-0e56-4c70-b4ac-d991e7489631",
@@ -2868,6 +2868,498 @@
             "Without position"
           ],
           "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "review-f2965692-d6a9-4b78-8e05-ad399ad9374a",
+      "title": "Unit : Projectile Motion Review",
+      "topics": [
+        "Vector and Scalar Quantities",
+        "Velocity Vectors",
+        "Components of Vectors",
+        "Projectile Motion",
+        "Projectiles Launched Horizontally",
+        "Projectiles Launched at an Angle",
+        "Projectile Motion Math",
+        "Electricity"
+      ],
+      "questions": [
+        {
+          "id": "question-vector-and-scalar-quantities-which-quantity-is-a-scalar-1",
+          "type": "mc",
+          "questionText": "Which quantity is a scalar?",
+          "topic": "Vector and Scalar Quantities",
+          "hint": "A scalar has magnitude only, no direction.",
+          "choices": [
+            "Velocity",
+            "Displacement",
+            "Speed",
+            "Acceleration"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-vector-and-scalar-quantities-which-quantity-is-a-vector-2",
+          "type": "mc",
+          "questionText": "Which quantity is a vector?",
+          "topic": "Vector and Scalar Quantities",
+          "hint": "A vector has magnitude and direction.",
+          "choices": [
+            "Distance",
+            "Speed",
+            "Time",
+            "Velocity"
+          ],
+          "correctIndex": 3
+        },
+        {
+          "id": "question-vector-and-scalar-quantities-a-scalar-quantity-includes-3",
+          "type": "mc",
+          "questionText": "A scalar quantity includes:",
+          "topic": "Vector and Scalar Quantities",
+          "hint": "Speed and distance are scalar quantities.",
+          "choices": [
+            "Magnitude only",
+            "Direction only",
+            "Magnitude and direction",
+            "No units"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-velocity-vectors-a-vector-quantity-includes-4",
+          "type": "mc",
+          "questionText": "A vector quantity includes:",
+          "topic": "Velocity Vectors",
+          "hint": "Velocity, displacement, and acceleration are vectors.",
+          "choices": [
+            "Mass only",
+            "Magnitude and direction",
+            "Time only",
+            "Distance only"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-velocity-vectors-which-statement-shows-velocity-5",
+          "type": "mc",
+          "questionText": "Which statement shows velocity?",
+          "topic": "Velocity Vectors",
+          "hint": "Velocity must include direction.",
+          "choices": [
+            "15 m/s",
+            "20 m/s east",
+            "10 seconds",
+            "50 meters"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-components-of-vectors-a-ball-moves-12-m-s-upward-this-is-an-example-of-6",
+          "type": "mc",
+          "questionText": "A ball moves 12 m/s upward. This is an example of:",
+          "topic": "Components of Vectors",
+          "hint": "The direction upward makes it velocity.",
+          "choices": [
+            "Speed only",
+            "Velocity",
+            "Distance",
+            "Time"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-components-of-vectors-vector-components-are-7",
+          "type": "mc",
+          "questionText": "Vector components are:",
+          "topic": "Components of Vectors",
+          "hint": "Components usually separate motion into horizontal and vertical parts.",
+          "choices": [
+            "Parts of a vector in different directions",
+            "The mass of an object",
+            "The total distance traveled",
+            "The time of flight only"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-components-of-vectors-in-projectile-motion-velocity-is-usually-separated-into-8",
+          "type": "mc",
+          "questionText": "In projectile motion, velocity is usually separated into:",
+          "topic": "Components of Vectors",
+          "hint": "Projectile motion is easier when split into x and y motion.",
+          "choices": [
+            "Mass and weight",
+            "Horizontal and vertical components",
+            "Speed and time only",
+            "Force and energy only"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-components-of-vectors-if-a-projectile-has-horizontal-velocity-of-8-m-s-and-vertica-9",
+          "type": "mc",
+          "questionText": "If a projectile has horizontal velocity of 8 m/s and vertical velocity of 6 m/s, which value is the horizontal component?",
+          "topic": "Components of Vectors",
+          "hint": "Horizontal means the x-component.",
+          "choices": [
+            "6 m/s",
+            "8 m/s",
+            "14 m/s",
+            "48 m/s"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-projectile-motion-if-a-projectile-has-horizontal-velocity-of-5-m-s-and-vertica-10",
+          "type": "mc",
+          "questionText": "If a projectile has horizontal velocity of 5 m/s and vertical velocity of 12 m/s, which value is the vertical component?",
+          "topic": "Projectile Motion",
+          "hint": "Vertical means the y-component.",
+          "choices": [
+            "5 m/s",
+            "12 m/s",
+            "17 m/s",
+            "60 m/s"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-projectile-motion-projectile-motion-is-the-motion-of-an-object-that-is-11",
+          "type": "mc",
+          "questionText": "Projectile motion is the motion of an object that is:",
+          "topic": "Projectile Motion",
+          "hint": "A projectile moves through the air while gravity acts on it.",
+          "choices": [
+            "Moving only in a circle",
+            "Launched and moves under the influence of gravity",
+            "Not affected by gravity",
+            "Always moving straight upward"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-projectile-motion-in-ideal-projectile-motion-the-only-force-acting-on-the-obje-12",
+          "type": "mc",
+          "questionText": "In ideal projectile motion, the only force acting on the object is:",
+          "topic": "Projectile Motion",
+          "hint": "This assumes air resistance is ignored.",
+          "choices": [
+            "Friction",
+            "Gravity",
+            "Magnetism",
+            "Normal force"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-projectile-motion-in-projectile-motion-horizontal-velocity-is-usually-13",
+          "type": "mc",
+          "questionText": "In projectile motion, horizontal velocity is usually:",
+          "topic": "Projectile Motion",
+          "hint": "Gravity acts vertically, not horizontally.",
+          "choices": [
+            "Constant",
+            "Increasing because of gravity",
+            "Decreasing because of gravity",
+            "Always zero"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-projectile-motion-in-projectile-motion-vertical-acceleration-is-caused-by-14",
+          "type": "mc",
+          "questionText": "In projectile motion, vertical acceleration is caused by:",
+          "topic": "Projectile Motion",
+          "hint": "Gravity causes downward acceleration.",
+          "choices": [
+            "Gravity",
+            "Horizontal velocity",
+            "Air pressure only",
+            "Mass only"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-projectile-motion-near-earth-vertical-acceleration-is-approximately-15",
+          "type": "mc",
+          "questionText": "Near Earth, vertical acceleration is approximately:",
+          "topic": "Projectile Motion",
+          "hint": "Acceleration due to gravity is about 9.8 m/s² downward.",
+          "choices": [
+            "1.6 m/s² downward",
+            "5.0 m/s² downward",
+            "9.8 m/s² downward",
+            "20 m/s² upward"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-projectile-motion-at-the-highest-point-of-a-projectile-launched-upward-at-an-a-16",
+          "type": "mc",
+          "questionText": "At the highest point of a projectile launched upward at an angle, the vertical velocity is:",
+          "topic": "Projectile Motion",
+          "hint": "At the top, the projectile stops moving upward for an instant.",
+          "choices": [
+            "Maximum",
+            "Zero",
+            "Equal to gravity",
+            "Always negative"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-projectiles-launched-horizontally-at-the-highest-point-of-a-projectile-the-acceleration-is-17",
+          "type": "mc",
+          "questionText": "At the highest point of a projectile, the acceleration is:",
+          "topic": "Projectiles Launched Horizontally",
+          "hint": "Gravity still acts at the top.",
+          "choices": [
+            "Zero",
+            "9.8 m/s² downward",
+            "9.8 m/s² upward",
+            "Equal to horizontal velocity"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-projectiles-launched-horizontally-a-projectile-launched-horizontally-has-an-initial-vertical-v-18",
+          "type": "mc",
+          "questionText": "A projectile launched horizontally has an initial vertical velocity of:",
+          "topic": "Projectiles Launched Horizontally",
+          "hint": "Horizontally launched means it starts with no vertical velocity.",
+          "choices": [
+            "0 m/s",
+            "5 m/s",
+            "9.8 m/s",
+            "20 m/s"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-projectiles-launched-horizontally-a-ball-rolls-off-a-table-horizontally-what-happens-to-its-ve-19",
+          "type": "mc",
+          "questionText": "A ball rolls off a table horizontally. What happens to its vertical velocity as it falls?",
+          "topic": "Projectiles Launched Horizontally",
+          "hint": "Gravity increases the downward velocity.",
+          "choices": [
+            "It stays zero",
+            "It increases downward",
+            "It decreases upward",
+            "It becomes horizontal"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-projectiles-launched-horizontally-a-ball-is-launched-horizontally-at-6-m-s-for-3-s-what-is-its-20",
+          "type": "mc",
+          "questionText": "A ball is launched horizontally at 6 m/s for 3 s. What is its horizontal displacement?",
+          "topic": "Projectiles Launched Horizontally",
+          "hint": "Horizontal displacement = horizontal velocity × time.",
+          "choices": [
+            "2 m",
+            "9 m",
+            "18 m",
+            "36 m"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-projectiles-launched-horizontally-a-projectile-has-horizontal-velocity-of-10-m-s-and-flies-for-21",
+          "type": "mc",
+          "questionText": "A projectile has horizontal velocity of 10 m/s and flies for 4 s. What is its horizontal displacement?",
+          "topic": "Projectiles Launched Horizontally",
+          "hint": "Use x = vt for horizontal motion.",
+          "choices": [
+            "14 m",
+            "25 m",
+            "40 m",
+            "80 m"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-projectiles-launched-horizontally-a-ball-is-launched-horizontally-from-a-cliff-ignoring-air-re-22",
+          "type": "mc",
+          "questionText": "A ball is launched horizontally from a cliff. Ignoring air resistance, which object hits the ground first?",
+          "topic": "Projectiles Launched Horizontally",
+          "hint": "Horizontal velocity does not affect fall time.",
+          "choices": [
+            "A ball dropped from the same height at the same time",
+            "A ball thrown upward later",
+            "A ball with no gravity",
+            "A ball with no mass"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-projectiles-launched-at-an-angle-a-projectile-is-launched-horizontally-at-12-m-s-and-lands-af-23",
+          "type": "mc",
+          "questionText": "A projectile is launched horizontally at 12 m/s and lands after 2 s. How far does it travel horizontally?",
+          "topic": "Projectiles Launched at an Angle",
+          "hint": "Horizontal distance = 12 m/s × 2 s.",
+          "choices": [
+            "6 m",
+            "14 m",
+            "24 m",
+            "48 m"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-projectiles-launched-at-an-angle-a-projectile-launched-at-an-angle-has-24",
+          "type": "mc",
+          "questionText": "A projectile launched at an angle has:",
+          "topic": "Projectiles Launched at an Angle",
+          "hint": "Angled launches have x and y components.",
+          "choices": [
+            "Only horizontal velocity",
+            "Only vertical velocity",
+            "Both horizontal and vertical velocity components",
+            "No velocity"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-projectiles-launched-at-an-angle-for-a-projectile-launched-at-an-angle-the-horizontal-compone-25",
+          "type": "mc",
+          "questionText": "For a projectile launched at an angle, the horizontal component of velocity:",
+          "topic": "Projectiles Launched at an Angle",
+          "hint": "Gravity affects vertical motion only.",
+          "choices": [
+            "Remains constant if air resistance is ignored",
+            "Increases because of gravity",
+            "Becomes zero immediately",
+            "Always points downward"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-projectiles-launched-at-an-angle-for-a-projectile-launched-at-an-angle-the-vertical-component-26",
+          "type": "mc",
+          "questionText": "For a projectile launched at an angle, the vertical component of velocity:",
+          "topic": "Projectiles Launched at an Angle",
+          "hint": "Gravity changes the vertical velocity.",
+          "choices": [
+            "Is affected by gravity",
+            "Never changes",
+            "Is always equal to horizontal velocity",
+            "Has no direction"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-projectiles-launched-at-an-angle-at-launch-a-projectile-has-horizontal-velocity-9-m-s-and-ver-27",
+          "type": "mc",
+          "questionText": "At launch, a projectile has horizontal velocity 9 m/s and vertical velocity 12 m/s. Which component determines how high it goes?",
+          "topic": "Projectiles Launched at an Angle",
+          "hint": "Maximum height depends on vertical motion.",
+          "choices": [
+            "Horizontal velocity",
+            "Vertical velocity",
+            "Mass only",
+            "Distance only"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-projectile-motion-math-at-launch-a-projectile-has-horizontal-velocity-9-m-s-and-ver-28",
+          "type": "mc",
+          "questionText": "At launch, a projectile has horizontal velocity 9 m/s and vertical velocity 12 m/s. Which component helps determine the range?",
+          "topic": "Projectile Motion Math",
+          "hint": "Range is horizontal distance traveled.",
+          "choices": [
+            "Horizontal velocity",
+            "Color",
+            "Mass only",
+            "Weight only"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-projectile-motion-math-a-projectile-has-a-horizontal-velocity-of-15-m-s-and-is-in-t-29",
+          "type": "mc",
+          "questionText": "A projectile has a horizontal velocity of 15 m/s and is in the air for 4 s. What is its range?",
+          "topic": "Projectile Motion Math",
+          "hint": "Range = horizontal velocity × time.",
+          "choices": [
+            "19 m",
+            "30 m",
+            "45 m",
+            "60 m"
+          ],
+          "correctIndex": 3
+        },
+        {
+          "id": "question-projectile-motion-math-a-ball-is-launched-horizontally-at-20-m-s-and-lands-after-3--30",
+          "type": "mc",
+          "questionText": "A ball is launched horizontally at 20 m/s and lands after 3 s. What is its horizontal distance?",
+          "topic": "Projectile Motion Math",
+          "hint": "Horizontal distance = 20 m/s × 3 s.",
+          "choices": [
+            "23 m",
+            "40 m",
+            "60 m",
+            "80 m"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-projectile-motion-math-a-projectile-is-launched-horizontally-from-rest-vertically-w-31",
+          "type": "mc",
+          "questionText": "A projectile is launched horizontally from rest vertically. What is its vertical velocity after 2 s? Use g = 10 m/s².",
+          "topic": "Projectile Motion Math",
+          "hint": "Use v = gt when initial vertical velocity is 0.",
+          "choices": [
+            "5 m/s downward",
+            "10 m/s downward",
+            "20 m/s downward",
+            "40 m/s downward"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-projectile-motion-a-projectile-is-in-the-air-for-5-s-and-moves-horizontally-at-32",
+          "type": "mc",
+          "questionText": "A projectile is in the air for 5 s and moves horizontally at 8 m/s. What is the range?",
+          "topic": "Projectile Motion",
+          "hint": "Range = horizontal velocity × time.",
+          "choices": [
+            "13 m",
+            "25 m",
+            "40 m",
+            "80 m"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-projectile-motion-ignoring-air-resistance-projectiles-follow-a-33",
+          "type": "mc",
+          "questionText": "Ignoring air resistance, projectiles follow a:",
+          "topic": "Projectile Motion",
+          "hint": "Ideal projectile motion forms a curved parabola.",
+          "choices": [
+            "Straight horizontal line",
+            "Circular path",
+            "Parabolic path",
+            "Random path"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-electricity-air-resistance-usually-causes-a-projectile-s-range-to-become-34",
+          "type": "mc",
+          "questionText": "Air resistance usually causes a projectile’s range to become:",
+          "topic": "Electricity",
+          "hint": "Air resistance opposes motion.",
+          "choices": [
+            "Greater",
+            "Smaller",
+            "Infinite",
+            "Unchanged always"
+          ],
+          "correctIndex": 1
         }
       ]
     }
