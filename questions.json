@@ -1,4 +1,306 @@
 {
-  "updatedAt": "2026-05-18T17:28:52.311Z",
-  "reviews": []
+  "updatedAt": "2026-05-18T17:31:56.644Z",
+  "reviews": [
+    {
+      "id": "review-be36d10c-0e56-4c70-b4ac-d991e7489631",
+      "title": "Unit 1: Kinematics",
+      "topics": [
+        "Kinematics",
+        "Average Speed",
+        "Average Velocity",
+        "Acceleration",
+        "Equations of Motion",
+        "Final Velocity",
+        "Displacement",
+        "No Time Equation",
+        "Average Velocity Equation",
+        "Projectile Motion",
+        "Free Fall",
+        "Fluid Resistance",
+        "Electricity"
+      ],
+      "questions": [
+        {
+          "id": "question-kinematics-what-is-displacement-1",
+          "type": "mc",
+          "questionText": "What is displacement?",
+          "topic": "Kinematics",
+          "hint": "Displacement is a vector quantity.",
+          "choices": [
+            "Total distance traveled",
+            "Change in position with direction",
+            "Speed without direction",
+            "Time taken to move"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-kinematics-velocity-is-the-rate-of-change-of-2",
+          "type": "mc",
+          "questionText": "Velocity is the rate of change of:",
+          "topic": "Kinematics",
+          "hint": "Velocity tells how quickly position changes.",
+          "choices": [
+            "Position",
+            "Mass",
+            "Force",
+            "Energy"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-average-speed-acceleration-is-the-rate-of-change-of-3",
+          "type": "mc",
+          "questionText": "Acceleration is the rate of change of:",
+          "topic": "Average Speed",
+          "hint": "Acceleration tells how quickly velocity changes.",
+          "choices": [
+            "Position",
+            "Distance",
+            "Velocity",
+            "Time"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-average-velocity-a-car-travels-120-m-in-6-s-what-is-its-average-speed-4",
+          "type": "mc",
+          "questionText": "A car travels 120 m in 6 s. What is its average speed?",
+          "topic": "Average Velocity",
+          "hint": "Average speed = distance ÷ time.",
+          "choices": [
+            "10 m/s",
+            "20 m/s",
+            "60 m/s",
+            "720 m/s"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-acceleration-a-runner-has-a-displacement-of-50-m-east-in-10-s-what-is-the-5",
+          "type": "mc",
+          "questionText": "A runner has a displacement of 50 m east in 10 s. What is the average velocity?",
+          "topic": "Acceleration",
+          "hint": "Average velocity = displacement ÷ time.",
+          "choices": [
+            "5 m/s east",
+            "10 m/s east",
+            "50 m/s east",
+            "500 m/s east"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-acceleration-a-car-changes-velocity-from-0-m-s-to-20-m-s-in-5-s-what-is-i-6",
+          "type": "mc",
+          "questionText": "A car changes velocity from 0 m/s to 20 m/s in 5 s. What is its acceleration?",
+          "topic": "Acceleration",
+          "hint": "a = (v - u) ÷ t.",
+          "choices": [
+            "2 m/s²",
+            "4 m/s²",
+            "5 m/s²",
+            "20 m/s²"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-acceleration-a-bicycle-speeds-up-from-4-m-s-to-12-m-s-in-4-s-what-is-its--7",
+          "type": "mc",
+          "questionText": "A bicycle speeds up from 4 m/s to 12 m/s in 4 s. What is its acceleration?",
+          "topic": "Acceleration",
+          "hint": "a = (v - u) ÷ t.",
+          "choices": [
+            "2 m/s²",
+            "3 m/s²",
+            "4 m/s²",
+            "8 m/s²"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-equations-of-motion-a-car-slows-down-from-30-m-s-to-10-m-s-in-5-s-what-is-its-ac-8",
+          "type": "mc",
+          "questionText": "A car slows down from 30 m/s to 10 m/s in 5 s. What is its acceleration?",
+          "topic": "Equations of Motion",
+          "hint": "a = (v - u) ÷ t. Slowing down gives negative acceleration if forward is positive.",
+          "choices": [
+            "4 m/s²",
+            "-2 m/s²",
+            "-4 m/s²",
+            "8 m/s²"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-final-velocity-which-equation-can-be-used-to-find-final-velocity-9",
+          "type": "mc",
+          "questionText": "Which equation can be used to find final velocity?",
+          "topic": "Final Velocity",
+          "hint": "Use this equation when you know initial velocity, acceleration, and time.",
+          "choices": [
+            "v = u + at",
+            "s = ut + ½at²",
+            "v² = u² + 2as",
+            "s = ((u + v) / 2)t"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-final-velocity-an-object-starts-from-rest-and-accelerates-at-3-m-s-for-4-s--10",
+          "type": "mc",
+          "questionText": "An object starts from rest and accelerates at 3 m/s² for 4 s. What is its final velocity?",
+          "topic": "Final Velocity",
+          "hint": "Use v = u + at. Rest means u = 0.",
+          "choices": [
+            "7 m/s",
+            "12 m/s",
+            "16 m/s",
+            "24 m/s"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-displacement-a-car-has-an-initial-velocity-of-5-m-s-and-accelerates-at-2--11",
+          "type": "mc",
+          "questionText": "A car has an initial velocity of 5 m/s and accelerates at 2 m/s² for 6 s. What is its final velocity?",
+          "topic": "Displacement",
+          "hint": "v = u + at.",
+          "choices": [
+            "7 m/s",
+            "10 m/s",
+            "12 m/s",
+            "17 m/s"
+          ],
+          "correctIndex": 3
+        },
+        {
+          "id": "question-displacement-an-object-starts-from-rest-and-accelerates-at-2-m-s-for-5-s--12",
+          "type": "mc",
+          "questionText": "An object starts from rest and accelerates at 2 m/s² for 5 s. What is its displacement?",
+          "topic": "Displacement",
+          "hint": "Use s = ut + ½at². Rest means u = 0.",
+          "choices": [
+            "10 m",
+            "25 m",
+            "50 m",
+            "100 m"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-no-time-equation-a-car-moves-with-an-initial-velocity-of-4-m-s-acceleration-o-13",
+          "type": "mc",
+          "questionText": "A car moves with an initial velocity of 4 m/s, acceleration of 2 m/s², for 3 s. What is its displacement?",
+          "topic": "No Time Equation",
+          "hint": "Use s = ut + ½at².",
+          "choices": [
+            "9 m",
+            "12 m",
+            "21 m",
+            "30 m"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-no-time-equation-which-equation-is-useful-when-time-is-not-given-14",
+          "type": "mc",
+          "questionText": "Which equation is useful when time is not given?",
+          "topic": "No Time Equation",
+          "hint": "This equation does not include time.",
+          "choices": [
+            "v = u + at",
+            "s = ut + ½at²",
+            "v² = u² + 2as",
+            "s = ((u + v) / 2)t"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-average-velocity-equation-a-ball-starts-from-rest-and-accelerates-at-2-m-s-over-9-m-wh-15",
+          "type": "mc",
+          "questionText": "A ball starts from rest and accelerates at 2 m/s² over 9 m. What is its final velocity?",
+          "topic": "Average Velocity Equation",
+          "hint": "Use v² = u² + 2as.",
+          "choices": [
+            "3 m/s",
+            "4 m/s",
+            "5 m/s",
+            "6 m/s"
+          ],
+          "correctIndex": 3
+        },
+        {
+          "id": "question-projectile-motion-a-car-speeds-up-uniformly-from-10-m-s-to-20-m-s-in-4-s-what--16",
+          "type": "mc",
+          "questionText": "A car speeds up uniformly from 10 m/s to 20 m/s in 4 s. What is its displacement?",
+          "topic": "Projectile Motion",
+          "hint": "Use s = ((u + v) / 2)t.",
+          "choices": [
+            "30 m",
+            "40 m",
+            "60 m",
+            "80 m"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-projectile-motion-a-ball-is-launched-horizontally-if-air-resistance-is-ignored-17",
+          "type": "mc",
+          "questionText": "A ball is launched horizontally. If air resistance is ignored, its horizontal velocity is:",
+          "topic": "Projectile Motion",
+          "hint": "Gravity acts vertically, not horizontally.",
+          "choices": [
+            "Constant",
+            "Increasing",
+            "Decreasing",
+            "Zero"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-free-fall-a-projectile-has-a-horizontal-velocity-of-8-m-s-and-flies-fo-18",
+          "type": "mc",
+          "questionText": "A projectile has a horizontal velocity of 8 m/s and flies for 3 s. What is its horizontal displacement?",
+          "topic": "Free Fall",
+          "hint": "Horizontal displacement = horizontal velocity × time.",
+          "choices": [
+            "11 m",
+            "16 m",
+            "24 m",
+            "32 m"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-fluid-resistance-a-ball-is-dropped-from-rest-ignoring-air-resistance-what-is--19",
+          "type": "mc",
+          "questionText": "A ball is dropped from rest. Ignoring air resistance, what is its velocity after 2 s? Use g = 10 m/s².",
+          "topic": "Fluid Resistance",
+          "hint": "Use v = u + gt. Dropped from rest means u = 0.",
+          "choices": [
+            "5 m/s downward",
+            "10 m/s downward",
+            "20 m/s downward",
+            "40 m/s downward"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-electricity-fluid-resistance-usually-causes-a-projectile-to-have-20",
+          "type": "mc",
+          "questionText": "Fluid resistance usually causes a projectile to have:",
+          "topic": "Electricity",
+          "hint": "Fluid resistance opposes motion and reduces range.",
+          "choices": [
+            "Greater range than without air resistance",
+            "Smaller range than without air resistance",
+            "No change in motion",
+            "Zero acceleration immediately"
+          ],
+          "correctIndex": 1
+        }
+      ]
+    }
+  ]
 }
