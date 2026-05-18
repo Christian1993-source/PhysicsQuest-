@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-18T17:31:56.644Z",
+  "updatedAt": "2026-05-18T17:33:12.263Z",
   "reviews": [
     {
       "id": "review-be36d10c-0e56-4c70-b4ac-d991e7489631",
@@ -299,6 +299,376 @@
             "Zero acceleration immediately"
           ],
           "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "review-bc2a5149-1ed0-4eec-9d7b-63df107a2111",
+      "title": "Unit 2: A.2 Forces and Momentum",
+      "topics": [
+        "Newton's Laws",
+        "Resultant Force",
+        "Free-Body Diagrams",
+        "Momentum",
+        "Conservation of Momentum",
+        "Impulse",
+        "Impulse and Momentum",
+        "Collisions",
+        "Circular Motion",
+        "Centripetal Acceleration",
+        "Angular Velocity",
+        "Motion"
+      ],
+      "questions": [
+        {
+          "id": "question-newton-s-laws-newton-s-first-law-states-that-an-object-will-remain-at-rest-1",
+          "type": "mc",
+          "questionText": "Newton's First Law states that an object will remain at rest or move at constant velocity unless:",
+          "topic": "Newton's Laws",
+          "hint": "Newton's First Law is also called the law of inertia.",
+          "choices": [
+            "Its mass disappears",
+            "A resultant external force acts on it",
+            "Its velocity becomes zero",
+            "It changes color"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-newton-s-laws-newton-s-second-law-is-represented-by-2",
+          "type": "mc",
+          "questionText": "Newton's Second Law is represented by:",
+          "topic": "Newton's Laws",
+          "hint": "Force depends on mass and acceleration.",
+          "choices": [
+            "F = ma",
+            "p = mv",
+            "J = FΔt",
+            "v = u + at"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-resultant-force-newton-s-third-law-states-that-3",
+          "type": "mc",
+          "questionText": "Newton's Third Law states that:",
+          "topic": "Resultant Force",
+          "hint": "Forces come in pairs.",
+          "choices": [
+            "Forces always act alone",
+            "Every action has an equal and opposite reaction",
+            "Objects cannot accelerate",
+            "Momentum is always zero"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-resultant-force-a-5-kg-object-accelerates-at-2-m-s-what-is-the-resultant-for-4",
+          "type": "mc",
+          "questionText": "A 5 kg object accelerates at 2 m/s². What is the resultant force?",
+          "topic": "Resultant Force",
+          "hint": "Use F = ma.",
+          "choices": [
+            "2.5 N",
+            "7 N",
+            "10 N",
+            "25 N"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-free-body-diagrams-a-4-kg-cart-experiences-a-resultant-force-of-20-n-what-is-it-5",
+          "type": "mc",
+          "questionText": "A 4 kg cart experiences a resultant force of 20 N. What is its acceleration?",
+          "topic": "Free-Body Diagrams",
+          "hint": "Rearrange F = ma to a = F/m.",
+          "choices": [
+            "5 m/s²",
+            "8 m/s²",
+            "16 m/s²",
+            "80 m/s²"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-resultant-force-a-free-body-diagram-is-used-to-show-6",
+          "type": "mc",
+          "questionText": "A free-body diagram is used to show:",
+          "topic": "Resultant Force",
+          "hint": "Free-body diagrams represent forces using arrows.",
+          "choices": [
+            "The chemical formula of an object",
+            "The forces acting on an object",
+            "The color of an object",
+            "The energy levels of atoms"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-resultant-force-if-two-forces-of-10-n-and-6-n-act-in-the-same-direction-what-7",
+          "type": "mc",
+          "questionText": "If two forces of 10 N and 6 N act in the same direction, what is the resultant force?",
+          "topic": "Resultant Force",
+          "hint": "Forces in the same direction are added.",
+          "choices": [
+            "4 N",
+            "10 N",
+            "16 N",
+            "60 N"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-momentum-if-a-15-n-force-acts-right-and-a-5-n-force-acts-left-what-is-8",
+          "type": "mc",
+          "questionText": "If a 15 N force acts right and a 5 N force acts left, what is the resultant force?",
+          "topic": "Momentum",
+          "hint": "Opposite forces are subtracted.",
+          "choices": [
+            "20 N right",
+            "10 N right",
+            "10 N left",
+            "5 N right"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-momentum-linear-momentum-is-calculated-using-9",
+          "type": "mc",
+          "questionText": "Linear momentum is calculated using:",
+          "topic": "Momentum",
+          "hint": "Momentum depends on mass and velocity.",
+          "choices": [
+            "p = mv",
+            "F = ma",
+            "J = FΔt",
+            "a = v²/r"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-momentum-a-2-kg-object-moves-at-3-m-s-what-is-its-momentum-10",
+          "type": "mc",
+          "questionText": "A 2 kg object moves at 3 m/s. What is its momentum?",
+          "topic": "Momentum",
+          "hint": "Use p = mv.",
+          "choices": [
+            "5 kg m/s",
+            "6 kg m/s",
+            "9 kg m/s",
+            "12 kg m/s"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-conservation-of-momentum-a-10-kg-object-has-a-momentum-of-50-kg-m-s-what-is-its-veloc-11",
+          "type": "mc",
+          "questionText": "A 10 kg object has a momentum of 50 kg m/s. What is its velocity?",
+          "topic": "Conservation of Momentum",
+          "hint": "Rearrange p = mv to v = p/m.",
+          "choices": [
+            "2 m/s",
+            "5 m/s",
+            "10 m/s",
+            "500 m/s"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-impulse-momentum-remains-constant-in-a-system-unless-12",
+          "type": "mc",
+          "questionText": "Momentum remains constant in a system unless:",
+          "topic": "Impulse",
+          "hint": "External forces can change total momentum.",
+          "choices": [
+            "The system is closed and no external force acts",
+            "A resultant external force acts on the system",
+            "The objects are moving",
+            "The objects have mass"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-impulse-impulse-is-calculated-using-13",
+          "type": "mc",
+          "questionText": "Impulse is calculated using:",
+          "topic": "Impulse",
+          "hint": "Impulse depends on force and contact time.",
+          "choices": [
+            "J = FΔt",
+            "p = mv",
+            "F = ma",
+            "v = ωr"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-impulse-and-momentum-a-force-of-20-n-acts-for-3-s-what-is-the-impulse-14",
+          "type": "mc",
+          "questionText": "A force of 20 N acts for 3 s. What is the impulse?",
+          "topic": "Impulse and Momentum",
+          "hint": "Use J = FΔt.",
+          "choices": [
+            "6 N s",
+            "17 N s",
+            "23 N s",
+            "60 N s"
+          ],
+          "correctIndex": 3
+        },
+        {
+          "id": "question-impulse-and-momentum-impulse-is-equal-to-15",
+          "type": "mc",
+          "questionText": "Impulse is equal to:",
+          "topic": "Impulse and Momentum",
+          "hint": "J = Δp.",
+          "choices": [
+            "Change in momentum",
+            "Total distance",
+            "Mass only",
+            "Acceleration only"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-collisions-an-object-s-momentum-changes-from-10-kg-m-s-to-25-kg-m-s-wha-16",
+          "type": "mc",
+          "questionText": "An object's momentum changes from 10 kg m/s to 25 kg m/s. What is the impulse?",
+          "topic": "Collisions",
+          "hint": "Impulse = final momentum - initial momentum.",
+          "choices": [
+            "10 N s",
+            "15 N s",
+            "25 N s",
+            "35 N s"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-collisions-in-an-elastic-collision-which-quantities-are-conserved-17",
+          "type": "mc",
+          "questionText": "In an elastic collision, which quantities are conserved?",
+          "topic": "Collisions",
+          "hint": "Elastic collisions conserve both.",
+          "choices": [
+            "Momentum only",
+            "Kinetic energy only",
+            "Both momentum and kinetic energy",
+            "Neither momentum nor kinetic energy"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-circular-motion-in-an-inelastic-collision-which-quantity-is-always-conserved-18",
+          "type": "mc",
+          "questionText": "In an inelastic collision, which quantity is always conserved if no external force acts?",
+          "topic": "Circular Motion",
+          "hint": "Momentum is conserved in closed systems.",
+          "choices": [
+            "Momentum",
+            "Kinetic energy",
+            "Speed",
+            "Acceleration"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-circular-motion-centripetal-acceleration-is-directed-19",
+          "type": "mc",
+          "questionText": "Centripetal acceleration is directed:",
+          "topic": "Circular Motion",
+          "hint": "Centripetal means center-seeking.",
+          "choices": [
+            "Away from the circle",
+            "Tangent to the circle",
+            "Toward the center of the circle",
+            "Downward only"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-centripetal-acceleration-a-body-moves-in-a-circle-at-constant-speed-what-changes-20",
+          "type": "mc",
+          "questionText": "A body moves in a circle at constant speed. What changes?",
+          "topic": "Centripetal Acceleration",
+          "hint": "Velocity is a vector, so changing direction means velocity changes.",
+          "choices": [
+            "Its mass",
+            "Its direction of velocity",
+            "Its amount of matter",
+            "Its chemical identity"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-centripetal-acceleration-centripetal-acceleration-can-be-calculated-using-21",
+          "type": "mc",
+          "questionText": "Centripetal acceleration can be calculated using:",
+          "topic": "Centripetal Acceleration",
+          "hint": "Use this formula when speed and radius are given.",
+          "choices": [
+            "a = v²/r",
+            "F = ma",
+            "p = mv",
+            "J = FΔt"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-circular-motion-a-car-moves-in-a-circle-at-10-m-s-with-radius-5-m-what-is-it-22",
+          "type": "mc",
+          "questionText": "A car moves in a circle at 10 m/s with radius 5 m. What is its centripetal acceleration?",
+          "topic": "Circular Motion",
+          "hint": "Use a = v²/r.",
+          "choices": [
+            "2 m/s²",
+            "10 m/s²",
+            "20 m/s²",
+            "50 m/s²"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-angular-velocity-centripetal-force-acts-23",
+          "type": "mc",
+          "questionText": "Centripetal force acts:",
+          "topic": "Angular Velocity",
+          "hint": "Centripetal force changes direction, not necessarily speed.",
+          "choices": [
+            "Parallel to the velocity",
+            "Perpendicular to the velocity and toward the center",
+            "Opposite to gravity only",
+            "Away from the center"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-angular-velocity-the-relationship-between-linear-speed-and-angular-velocity-i-24",
+          "type": "mc",
+          "questionText": "The relationship between linear speed and angular velocity is:",
+          "topic": "Angular Velocity",
+          "hint": "Linear speed depends on angular velocity and radius.",
+          "choices": [
+            "v = ωr",
+            "p = mv",
+            "J = FΔt",
+            "F = ma"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-motion-an-object-has-angular-velocity-4-rad-s-and-radius-2-m-what-i-25",
+          "type": "mc",
+          "questionText": "An object has angular velocity 4 rad/s and radius 2 m. What is its linear speed?",
+          "topic": "Motion",
+          "hint": "Use v = ωr.",
+          "choices": [
+            "2 m/s",
+            "4 m/s",
+            "6 m/s",
+            "8 m/s"
+          ],
+          "correctIndex": 3
         }
       ]
     }
