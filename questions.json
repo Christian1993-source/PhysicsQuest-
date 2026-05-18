@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-18T17:42:42.950Z",
+  "updatedAt": "2026-05-18T20:07:06.705Z",
   "reviews": [
     {
       "id": "review-be36d10c-0e56-4c70-b4ac-d991e7489631",
@@ -2366,6 +2366,506 @@
             "Broken",
             "Open",
             "Missing a power source"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "review-96e65101-59ec-4930-8382-8a943ec45d06",
+      "title": "Unit : Linear Motion & Inertia Review",
+      "topics": [
+        "Reference Point",
+        "Position",
+        "Distance",
+        "Displacement",
+        "Distance and Displacement",
+        "Speed",
+        "Constant Speed",
+        "Average Speed",
+        "Instantaneous Speed",
+        "Velocity",
+        "Acceleration",
+        "Newton's First Law",
+        "Inertia",
+        "Weight",
+        "Linear Motion",
+        "Motion"
+      ],
+      "questions": [
+        {
+          "id": "question-reference-point-what-is-a-reference-point-1",
+          "type": "mc",
+          "questionText": "What is a reference point?",
+          "topic": "Reference Point",
+          "hint": "Motion is described compared to a reference point.",
+          "choices": [
+            "An object or location used to describe motion",
+            "The total distance traveled",
+            "The force of gravity on an object",
+            "The speed at one instant"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-position-a-student-says-the-bus-is-moving-away-from-the-school-what-i-2",
+          "type": "mc",
+          "questionText": "A student says, “The bus is moving away from the school.” What is the reference point?",
+          "topic": "Position",
+          "hint": "The motion is described compared to the school.",
+          "choices": [
+            "The bus",
+            "The student",
+            "The school",
+            "The road"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-position-position-describes-3",
+          "type": "mc",
+          "questionText": "Position describes:",
+          "topic": "Position",
+          "hint": "Position tells location.",
+          "choices": [
+            "How fast an object moves",
+            "Where an object is located compared to a reference point",
+            "How heavy an object is",
+            "How much force acts on an object"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-distance-if-a-car-is-20-m-east-of-a-tree-the-tree-is-acting-as-the-4",
+          "type": "mc",
+          "questionText": "If a car is 20 m east of a tree, the tree is acting as the:",
+          "topic": "Distance",
+          "hint": "The car’s position is described compared to the tree.",
+          "choices": [
+            "Reference point",
+            "Speed",
+            "Acceleration",
+            "Weight"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-distance-distance-is-5",
+          "type": "mc",
+          "questionText": "Distance is:",
+          "topic": "Distance",
+          "hint": "Distance measures the full path traveled.",
+          "choices": [
+            "The straight-line change in position",
+            "The total path length traveled",
+            "Speed with direction",
+            "Force divided by mass"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-displacement-a-runner-travels-100-m-north-and-then-50-m-south-what-is-the-6",
+          "type": "mc",
+          "questionText": "A runner travels 100 m north and then 50 m south. What is the total distance traveled?",
+          "topic": "Displacement",
+          "hint": "Distance adds the full path traveled.",
+          "choices": [
+            "50 m",
+            "100 m",
+            "150 m",
+            "0 m"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-displacement-displacement-is-7",
+          "type": "mc",
+          "questionText": "Displacement is:",
+          "topic": "Displacement",
+          "hint": "Displacement is a vector quantity.",
+          "choices": [
+            "Total path length",
+            "Change in position with direction",
+            "Speed without direction",
+            "Mass times acceleration"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-distance-and-displacement-a-student-walks-8-m-east-and-then-3-m-west-what-is-the-displ-8",
+          "type": "mc",
+          "questionText": "A student walks 8 m east and then 3 m west. What is the displacement?",
+          "topic": "Distance and Displacement",
+          "hint": "Displacement depends on final position compared to starting position.",
+          "choices": [
+            "11 m east",
+            "5 m east",
+            "5 m west",
+            "3 m east"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-distance-and-displacement-distance-is-a-scalar-while-displacement-is-a-9",
+          "type": "mc",
+          "questionText": "Distance is a scalar, while displacement is a:",
+          "topic": "Distance and Displacement",
+          "hint": "A vector includes direction.",
+          "choices": [
+            "Force",
+            "Vector",
+            "Mass",
+            "Time"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-speed-a-person-walks-around-a-track-and-returns-to-the-starting-po-10",
+          "type": "mc",
+          "questionText": "A person walks around a track and returns to the starting point. What is the displacement?",
+          "topic": "Speed",
+          "hint": "Displacement compares final position to starting position.",
+          "choices": [
+            "Equal to the distance",
+            "Zero",
+            "Always negative",
+            "Greater than the distance"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-speed-speed-is-calculated-using-11",
+          "type": "mc",
+          "questionText": "Speed is calculated using:",
+          "topic": "Speed",
+          "hint": "Speed tells how fast distance is covered.",
+          "choices": [
+            "Speed = distance ÷ time",
+            "Speed = displacement ÷ time",
+            "Speed = force ÷ mass",
+            "Speed = mass × gravity"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-speed-a-bicycle-travels-60-m-in-5-s-what-is-its-speed-12",
+          "type": "mc",
+          "questionText": "A bicycle travels 60 m in 5 s. What is its speed?",
+          "topic": "Speed",
+          "hint": "Speed = distance ÷ time.",
+          "choices": [
+            "5 m/s",
+            "10 m/s",
+            "12 m/s",
+            "30 m/s"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-constant-speed-a-car-travels-150-m-in-10-s-what-is-its-speed-13",
+          "type": "mc",
+          "questionText": "A car travels 150 m in 10 s. What is its speed?",
+          "topic": "Constant Speed",
+          "hint": "Divide distance by time.",
+          "choices": [
+            "10 m/s",
+            "15 m/s",
+            "20 m/s",
+            "1500 m/s"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-constant-speed-constant-speed-means-14",
+          "type": "mc",
+          "questionText": "Constant speed means:",
+          "topic": "Constant Speed",
+          "hint": "Constant means unchanged.",
+          "choices": [
+            "Speed stays the same over time",
+            "Speed changes every second",
+            "The object is not moving",
+            "The object has no mass"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-average-speed-which-situation-shows-constant-speed-15",
+          "type": "mc",
+          "questionText": "Which situation shows constant speed?",
+          "topic": "Average Speed",
+          "hint": "Equal distance in equal time means constant speed.",
+          "choices": [
+            "A car speeding up",
+            "A bike slowing down",
+            "A runner moving 2 m every second",
+            "A ball stopping suddenly"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-average-speed-average-speed-is-calculated-using-16",
+          "type": "mc",
+          "questionText": "Average speed is calculated using:",
+          "topic": "Average Speed",
+          "hint": "Average speed uses total distance.",
+          "choices": [
+            "Total displacement ÷ total time",
+            "Total distance ÷ total time",
+            "Final speed ÷ initial speed",
+            "Weight ÷ mass"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-average-speed-a-student-walks-40-m-in-8-s-what-is-the-average-speed-17",
+          "type": "mc",
+          "questionText": "A student walks 40 m in 8 s. What is the average speed?",
+          "topic": "Average Speed",
+          "hint": "Average speed = total distance ÷ total time.",
+          "choices": [
+            "5 m/s",
+            "8 m/s",
+            "32 m/s",
+            "320 m/s"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-instantaneous-speed-a-car-travels-200-m-in-20-s-what-is-its-average-speed-18",
+          "type": "mc",
+          "questionText": "A car travels 200 m in 20 s. What is its average speed?",
+          "topic": "Instantaneous Speed",
+          "hint": "Divide 200 m by 20 s.",
+          "choices": [
+            "5 m/s",
+            "10 m/s",
+            "20 m/s",
+            "4000 m/s"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-instantaneous-speed-instantaneous-speed-is-19",
+          "type": "mc",
+          "questionText": "Instantaneous speed is:",
+          "topic": "Instantaneous Speed",
+          "hint": "A car speedometer shows instantaneous speed.",
+          "choices": [
+            "Speed at a specific moment",
+            "Total distance traveled",
+            "Total displacement",
+            "Weight divided by mass"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-velocity-which-device-shows-instantaneous-speed-20",
+          "type": "mc",
+          "questionText": "Which device shows instantaneous speed?",
+          "topic": "Velocity",
+          "hint": "Instantaneous speed is speed at that exact moment.",
+          "choices": [
+            "Thermometer",
+            "Balance",
+            "Speedometer",
+            "Stopwatch only"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-velocity-velocity-is-21",
+          "type": "mc",
+          "questionText": "Velocity is:",
+          "topic": "Velocity",
+          "hint": "Velocity is a vector quantity.",
+          "choices": [
+            "Speed with direction",
+            "Distance only",
+            "Mass with direction",
+            "Time with direction"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-velocity-a-car-moves-25-m-s-north-this-is-an-example-of-22",
+          "type": "mc",
+          "questionText": "A car moves 25 m/s north. This is an example of:",
+          "topic": "Velocity",
+          "hint": "Direction makes it velocity.",
+          "choices": [
+            "Speed only",
+            "Velocity",
+            "Weight",
+            "Inertia"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-acceleration-which-statement-gives-velocity-23",
+          "type": "mc",
+          "questionText": "Which statement gives velocity?",
+          "topic": "Acceleration",
+          "hint": "Velocity must include direction.",
+          "choices": [
+            "15 m/s",
+            "20 m/s east",
+            "30 seconds",
+            "40 meters"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-acceleration-acceleration-is-24",
+          "type": "mc",
+          "questionText": "Acceleration is:",
+          "topic": "Acceleration",
+          "hint": "Acceleration tells how quickly velocity changes.",
+          "choices": [
+            "Change in velocity per unit time",
+            "Total distance traveled",
+            "Position compared to a reference point",
+            "The amount of matter in an object"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-acceleration-a-car-changes-speed-from-0-m-s-to-20-m-s-in-4-s-what-is-its--25",
+          "type": "mc",
+          "questionText": "A car changes speed from 0 m/s to 20 m/s in 4 s. What is its acceleration?",
+          "topic": "Acceleration",
+          "hint": "Acceleration = change in velocity ÷ time.",
+          "choices": [
+            "4 m/s²",
+            "5 m/s²",
+            "16 m/s²",
+            "80 m/s²"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-newton-s-first-law-a-bike-slows-from-12-m-s-to-4-m-s-in-2-s-what-is-its-acceler-26",
+          "type": "mc",
+          "questionText": "A bike slows from 12 m/s to 4 m/s in 2 s. What is its acceleration?",
+          "topic": "Newton's First Law",
+          "hint": "Slowing down gives negative acceleration if forward is positive.",
+          "choices": [
+            "-4 m/s²",
+            "4 m/s²",
+            "8 m/s²",
+            "16 m/s²"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-inertia-newton-s-first-law-states-that-an-object-will-stay-at-rest-o-27",
+          "type": "mc",
+          "questionText": "Newton’s First Law states that an object will stay at rest or move at constant velocity unless:",
+          "topic": "Inertia",
+          "hint": "Newton’s First Law is the law of inertia.",
+          "choices": [
+            "It becomes heavier",
+            "A net force acts on it",
+            "Its color changes",
+            "It has no position"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-inertia-inertia-is-the-tendency-of-an-object-to-28",
+          "type": "mc",
+          "questionText": "Inertia is the tendency of an object to:",
+          "topic": "Inertia",
+          "hint": "Objects resist changes to their motion.",
+          "choices": [
+            "Resist changes in motion",
+            "Increase its temperature",
+            "Lose mass",
+            "Create energy"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-weight-which-object-has-more-inertia-29",
+          "type": "mc",
+          "questionText": "Which object has more inertia?",
+          "topic": "Weight",
+          "hint": "More mass means more inertia.",
+          "choices": [
+            "A tennis ball",
+            "A bowling ball",
+            "A feather",
+            "A paper clip"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-weight-weight-is-30",
+          "type": "mc",
+          "questionText": "Weight is:",
+          "topic": "Weight",
+          "hint": "Weight is a force measured in newtons.",
+          "choices": [
+            "The force of gravity on an object",
+            "The amount of matter in an object",
+            "The total distance traveled",
+            "Speed with direction"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-weight-weight-can-be-calculated-using-31",
+          "type": "mc",
+          "questionText": "Weight can be calculated using:",
+          "topic": "Weight",
+          "hint": "Weight equals mass times gravitational field strength.",
+          "choices": [
+            "W = mg",
+            "v = d/t",
+            "a = Δv/t",
+            "d = vt"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-weight-an-object-has-a-mass-of-5-kg-use-g-10-n-kg-what-is-its-weigh-32",
+          "type": "mc",
+          "questionText": "An object has a mass of 5 kg. Use g = 10 N/kg. What is its weight?",
+          "topic": "Weight",
+          "hint": "Use W = mg.",
+          "choices": [
+            "5 N",
+            "10 N",
+            "50 N",
+            "500 N"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-linear-motion-a-student-has-a-mass-of-40-kg-use-g-10-n-kg-what-is-the-stud-33",
+          "type": "mc",
+          "questionText": "A student has a mass of 40 kg. Use g = 10 N/kg. What is the student’s weight?",
+          "topic": "Linear Motion",
+          "hint": "Weight = mass × gravity.",
+          "choices": [
+            "4 N",
+            "40 N",
+            "400 N",
+            "4000 N"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-motion-linear-motion-means-motion-34",
+          "type": "mc",
+          "questionText": "Linear motion means motion:",
+          "topic": "Motion",
+          "hint": "Linear means straight-line motion.",
+          "choices": [
+            "In a straight line",
+            "In a circle only",
+            "With no speed",
+            "Without position"
           ],
           "correctIndex": 0
         }
