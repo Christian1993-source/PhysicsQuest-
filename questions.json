@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-18T17:38:19.562Z",
+  "updatedAt": "2026-05-18T17:39:39.975Z",
   "reviews": [
     {
       "id": "review-be36d10c-0e56-4c70-b4ac-d991e7489631",
@@ -1699,6 +1699,307 @@
             "N₂O"
           ],
           "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "review-fd006182-e3c0-44fd-80cc-1999dcecf46b",
+      "title": "Unit 6: Gas Laws",
+      "topics": [
+        "Pressure",
+        "Amount of Substance",
+        "Avogadro Constant",
+        "Ideal Gas",
+        "Kinetic Theory",
+        "Ideal Gas Law",
+        "Combined Gas Law",
+        "Boyle's Law",
+        "Charles's Law",
+        "Pressure Law",
+        "Internal Energy",
+        "Ideal Gas Conditions",
+        "Physics"
+      ],
+      "questions": [
+        {
+          "id": "question-pressure-pressure-is-defined-as-1",
+          "type": "mc",
+          "questionText": "Pressure is defined as:",
+          "topic": "Pressure",
+          "hint": "Use P = F/A.",
+          "choices": [
+            "Force divided by area",
+            "Area divided by force",
+            "Mass divided by volume",
+            "Temperature divided by time"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-pressure-a-force-of-100-n-acts-perpendicular-to-an-area-of-5-m-what-i-2",
+          "type": "mc",
+          "questionText": "A force of 100 N acts perpendicular to an area of 5 m². What is the pressure?",
+          "topic": "Pressure",
+          "hint": "Use P = F/A.",
+          "choices": [
+            "5 Pa",
+            "20 Pa",
+            "100 Pa",
+            "500 Pa"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-amount-of-substance-a-pressure-of-50-pa-acts-on-an-area-of-4-m-what-force-is-app-3",
+          "type": "mc",
+          "questionText": "A pressure of 50 Pa acts on an area of 4 m². What force is applied?",
+          "topic": "Amount of Substance",
+          "hint": "Rearrange P = F/A to F = PA.",
+          "choices": [
+            "12.5 N",
+            "46 N",
+            "54 N",
+            "200 N"
+          ],
+          "correctIndex": 3
+        },
+        {
+          "id": "question-avogadro-constant-the-amount-of-substance-n-can-be-calculated-using-4",
+          "type": "mc",
+          "questionText": "The amount of substance n can be calculated using:",
+          "topic": "Avogadro Constant",
+          "hint": "N is the number of molecules and NA is Avogadro’s constant.",
+          "choices": [
+            "n = N/NA",
+            "n = NA/N",
+            "n = PV",
+            "n = m/V"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-amount-of-substance-avogadro-s-constant-represents-5",
+          "type": "mc",
+          "questionText": "Avogadro’s constant represents:",
+          "topic": "Amount of Substance",
+          "hint": "One mole contains about 6.02 × 10²³ particles.",
+          "choices": [
+            "The number of particles in one mole",
+            "The pressure of one gas",
+            "The volume of one atom",
+            "The density of air"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-ideal-gas-if-a-sample-contains-6-02-10-molecules-how-many-moles-are-pr-6",
+          "type": "mc",
+          "questionText": "If a sample contains 6.02 × 10²³ molecules, how many moles are present?",
+          "topic": "Ideal Gas",
+          "hint": "6.02 × 10²³ particles = 1 mol.",
+          "choices": [
+            "0.5 mol",
+            "1.0 mol",
+            "2.0 mol",
+            "6.02 mol"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-kinetic-theory-an-ideal-gas-is-7",
+          "type": "mc",
+          "questionText": "An ideal gas is:",
+          "topic": "Kinetic Theory",
+          "hint": "Ideal gases are simplified models.",
+          "choices": [
+            "A model used to approximate the behavior of real gases",
+            "A gas that has no temperature",
+            "A gas made only of oxygen",
+            "A gas that cannot exert pressure"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-ideal-gas-law-according-to-kinetic-theory-gas-pressure-is-caused-by-8",
+          "type": "mc",
+          "questionText": "According to kinetic theory, gas pressure is caused by:",
+          "topic": "Ideal Gas Law",
+          "hint": "Collisions with surfaces create pressure.",
+          "choices": [
+            "Gas particles colliding with the container walls",
+            "Gas particles disappearing",
+            "Gas particles becoming solid",
+            "Gas particles losing all motion"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-ideal-gas-law-which-equation-is-the-ideal-gas-law-9",
+          "type": "mc",
+          "questionText": "Which equation is the ideal gas law?",
+          "topic": "Ideal Gas Law",
+          "hint": "The ideal gas law connects pressure, volume, amount of gas, and temperature.",
+          "choices": [
+            "PV = nRT",
+            "P = F/A",
+            "ρ = m/V",
+            "Q = mcΔT"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-ideal-gas-law-in-the-equation-pv-nrt-what-does-t-represent-10",
+          "type": "mc",
+          "questionText": "In the equation PV = nRT, what does T represent?",
+          "topic": "Ideal Gas Law",
+          "hint": "Gas law temperature must be in kelvin.",
+          "choices": [
+            "Time",
+            "Temperature in kelvin",
+            "Thermal energy only",
+            "Thickness"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-combined-gas-law-in-the-equation-pv-nrt-what-does-n-represent-11",
+          "type": "mc",
+          "questionText": "In the equation PV = nRT, what does n represent?",
+          "topic": "Combined Gas Law",
+          "hint": "n is measured in mol.",
+          "choices": [
+            "Amount of substance in moles",
+            "Number of neutrons",
+            "Normal force",
+            "Net displacement"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-boyle-s-law-for-a-fixed-amount-of-gas-which-quantity-stays-constant-in-t-12",
+          "type": "mc",
+          "questionText": "For a fixed amount of gas, which quantity stays constant in the combined gas law?",
+          "topic": "Boyle's Law",
+          "hint": "The combined gas law can be written as PV/T = constant.",
+          "choices": [
+            "PV/T",
+            "PT/V",
+            "VT/P",
+            "P + V + T"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-boyle-s-law-if-temperature-is-constant-what-happens-to-pressure-when-vol-13",
+          "type": "mc",
+          "questionText": "If temperature is constant, what happens to pressure when volume decreases?",
+          "topic": "Boyle's Law",
+          "hint": "At constant temperature, pressure and volume are inversely related.",
+          "choices": [
+            "Pressure decreases",
+            "Pressure increases",
+            "Pressure becomes zero",
+            "Pressure stays impossible to measure"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-charles-s-law-a-gas-has-a-pressure-of-100-kpa-and-volume-of-2-l-if-the-vol-14",
+          "type": "mc",
+          "questionText": "A gas has a pressure of 100 kPa and volume of 2 L. If the volume decreases to 1 L at constant temperature, what is the new pressure?",
+          "topic": "Charles's Law",
+          "hint": "Use P₁V₁ = P₂V₂.",
+          "choices": [
+            "50 kPa",
+            "100 kPa",
+            "200 kPa",
+            "400 kPa"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-pressure-law-if-pressure-is-constant-what-happens-to-volume-when-temperat-15",
+          "type": "mc",
+          "questionText": "If pressure is constant, what happens to volume when temperature increases?",
+          "topic": "Pressure Law",
+          "hint": "At constant pressure, volume and kelvin temperature are directly related.",
+          "choices": [
+            "Volume increases",
+            "Volume decreases",
+            "Volume becomes zero",
+            "Volume is not affected"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-ideal-gas-law-if-volume-is-constant-what-happens-to-pressure-when-temperat-16",
+          "type": "mc",
+          "questionText": "If volume is constant, what happens to pressure when temperature increases?",
+          "topic": "Ideal Gas Law",
+          "hint": "At constant volume, pressure and kelvin temperature are directly related.",
+          "choices": [
+            "Pressure decreases",
+            "Pressure increases",
+            "Pressure becomes zero",
+            "Pressure changes into volume"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-internal-energy-a-gas-has-n-2-mol-r-8-31-j-mol-k-and-t-300-k-what-is-the-val-17",
+          "type": "mc",
+          "questionText": "A gas has n = 2 mol, R = 8.31 J/mol K, and T = 300 K. What is the value of PV?",
+          "topic": "Internal Energy",
+          "hint": "From PV = nRT, multiply nRT.",
+          "choices": [
+            "2,493 J",
+            "4,986 J",
+            "8.31 J",
+            "600 J"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-internal-energy-the-internal-energy-of-an-ideal-monatomic-gas-is-given-by-18",
+          "type": "mc",
+          "questionText": "The internal energy of an ideal monatomic gas is given by:",
+          "topic": "Internal Energy",
+          "hint": "For a monatomic ideal gas, U depends on amount of gas and temperature.",
+          "choices": [
+            "U = 3/2 nRT",
+            "U = PV/T",
+            "U = F/A",
+            "U = ρV"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-ideal-gas-conditions-for-a-monatomic-ideal-gas-with-n-2-mol-r-8-31-j-mol-k-and-t--19",
+          "type": "mc",
+          "questionText": "For a monatomic ideal gas with n = 2 mol, R = 8.31 J/mol K, and T = 100 K, what is the internal energy?",
+          "topic": "Ideal Gas Conditions",
+          "hint": "Use U = 3/2 nRT.",
+          "choices": [
+            "831 J",
+            "1,662 J",
+            "2,493 J",
+            "3,324 J"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-physics-a-real-gas-behaves-most-like-an-ideal-gas-when-it-has-20",
+          "type": "mc",
+          "questionText": "A real gas behaves most like an ideal gas when it has:",
+          "topic": "Physics",
+          "hint": "Ideal gas behavior is best when particles are far apart and moving fast.",
+          "choices": [
+            "High temperature and low pressure",
+            "Low temperature and high pressure",
+            "High density and low temperature",
+            "Very strong intermolecular forces"
+          ],
+          "correctIndex": 0
         }
       ]
     }
