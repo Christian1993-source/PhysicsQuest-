@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-18T17:33:12.263Z",
+  "updatedAt": "2026-05-18T17:35:02.093Z",
   "reviews": [
     {
       "id": "review-be36d10c-0e56-4c70-b4ac-d991e7489631",
@@ -669,6 +669,361 @@
             "8 m/s"
           ],
           "correctIndex": 3
+        }
+      ]
+    },
+    {
+      "id": "review-9a4295ba-16cb-46e8-825a-f6037d0167af",
+      "title": "Unit 3: Work, Energy & Power",
+      "topics": [
+        "Work and Energy",
+        "Work Done",
+        "Mechanical Energy",
+        "Kinetic Energy",
+        "Gravitational Potential Energy",
+        "Elastic Potential Energy",
+        "Power",
+        "Efficiency",
+        "Sankey Diagrams",
+        "Energy Density",
+        "Energy"
+      ],
+      "questions": [
+        {
+          "id": "question-work-and-energy-the-principle-of-conservation-of-energy-states-that-energy-1",
+          "type": "mc",
+          "questionText": "The principle of conservation of energy states that energy:",
+          "topic": "Work and Energy",
+          "hint": "Energy changes form, but the total amount is conserved.",
+          "choices": [
+            "Can be created but not destroyed",
+            "Can be destroyed but not created",
+            "Cannot be created or destroyed, only transferred or transformed",
+            "Always disappears as heat"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-work-done-work-done-by-a-force-is-equivalent-to-2",
+          "type": "mc",
+          "questionText": "Work done by a force is equivalent to:",
+          "topic": "Work Done",
+          "hint": "When work is done, energy is transferred.",
+          "choices": [
+            "A transfer of energy",
+            "A loss of mass",
+            "A change in color",
+            "A change in volume"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-work-done-which-equation-calculates-work-done-by-a-constant-force-at-a-3",
+          "type": "mc",
+          "questionText": "Which equation calculates work done by a constant force at an angle?",
+          "topic": "Work Done",
+          "hint": "Only the component of force in the direction of displacement does work.",
+          "choices": [
+            "W = Fs cos θ",
+            "W = mv",
+            "W = F/t",
+            "W = mgh"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-work-done-a-force-of-10-n-moves-an-object-5-m-in-the-same-direction-as-4",
+          "type": "mc",
+          "questionText": "A force of 10 N moves an object 5 m in the same direction as the force. How much work is done?",
+          "topic": "Work Done",
+          "hint": "Use W = Fs when θ = 0°, so cos 0° = 1.",
+          "choices": [
+            "2 J",
+            "15 J",
+            "50 J",
+            "100 J"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-work-done-a-20-n-force-moves-an-object-3-m-in-the-direction-of-the-for-5",
+          "type": "mc",
+          "questionText": "A 20 N force moves an object 3 m in the direction of the force. How much work is done?",
+          "topic": "Work Done",
+          "hint": "Work = force × displacement.",
+          "choices": [
+            "6 J",
+            "17 J",
+            "23 J",
+            "60 J"
+          ],
+          "correctIndex": 3
+        },
+        {
+          "id": "question-mechanical-energy-if-a-force-is-perpendicular-to-displacement-the-work-done-is-6",
+          "type": "mc",
+          "questionText": "If a force is perpendicular to displacement, the work done is:",
+          "topic": "Mechanical Energy",
+          "hint": "cos 90° = 0.",
+          "choices": [
+            "Maximum",
+            "Zero",
+            "Negative always",
+            "Equal to force"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-kinetic-energy-mechanical-energy-is-the-sum-of-7",
+          "type": "mc",
+          "questionText": "Mechanical energy is the sum of:",
+          "topic": "Kinetic Energy",
+          "hint": "Mechanical energy includes motion energy and stored mechanical energy.",
+          "choices": [
+            "Kinetic energy, gravitational potential energy, and elastic potential energy",
+            "Heat energy and sound energy only",
+            "Chemical energy and nuclear energy only",
+            "Power and efficiency only"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-kinetic-energy-the-equation-for-kinetic-energy-is-8",
+          "type": "mc",
+          "questionText": "The equation for kinetic energy is:",
+          "topic": "Kinetic Energy",
+          "hint": "Kinetic energy depends on mass and the square of velocity.",
+          "choices": [
+            "Eₖ = mv",
+            "Eₖ = ½mv²",
+            "Eₖ = mgh",
+            "Eₖ = ½k(Δx)²"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-kinetic-energy-a-2-kg-object-moves-at-4-m-s-what-is-its-kinetic-energy-9",
+          "type": "mc",
+          "questionText": "A 2 kg object moves at 4 m/s. What is its kinetic energy?",
+          "topic": "Kinetic Energy",
+          "hint": "Use Eₖ = ½mv².",
+          "choices": [
+            "4 J",
+            "8 J",
+            "16 J",
+            "32 J"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-gravitational-potential-energy-a-10-kg-object-moves-at-2-m-s-what-is-its-kinetic-energy-10",
+          "type": "mc",
+          "questionText": "A 10 kg object moves at 2 m/s. What is its kinetic energy?",
+          "topic": "Gravitational Potential Energy",
+          "hint": "Eₖ = ½mv².",
+          "choices": [
+            "10 J",
+            "20 J",
+            "40 J",
+            "100 J"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-gravitational-potential-energy-the-change-in-gravitational-potential-energy-near-earth-is-c-11",
+          "type": "mc",
+          "questionText": "The change in gravitational potential energy near Earth is calculated using:",
+          "topic": "Gravitational Potential Energy",
+          "hint": "Gravitational potential energy depends on mass, gravity, and height.",
+          "choices": [
+            "ΔEₚ = mgΔh",
+            "Eₖ = ½mv²",
+            "P = W/t",
+            "η = Eout/Ein"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-gravitational-potential-energy-a-2-kg-object-is-lifted-5-m-use-g-10-m-s-what-is-the-increas-12",
+          "type": "mc",
+          "questionText": "A 2 kg object is lifted 5 m. Use g = 10 m/s². What is the increase in gravitational potential energy?",
+          "topic": "Gravitational Potential Energy",
+          "hint": "Use ΔEₚ = mgΔh.",
+          "choices": [
+            "10 J",
+            "50 J",
+            "100 J",
+            "200 J"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-elastic-potential-energy-a-3-kg-object-is-raised-4-m-use-g-10-m-s-what-is-its-gain-in-13",
+          "type": "mc",
+          "questionText": "A 3 kg object is raised 4 m. Use g = 10 m/s². What is its gain in gravitational potential energy?",
+          "topic": "Elastic Potential Energy",
+          "hint": "Multiply mass × gravity × height.",
+          "choices": [
+            "12 J",
+            "30 J",
+            "40 J",
+            "120 J"
+          ],
+          "correctIndex": 3
+        },
+        {
+          "id": "question-elastic-potential-energy-the-equation-for-elastic-potential-energy-is-14",
+          "type": "mc",
+          "questionText": "The equation for elastic potential energy is:",
+          "topic": "Elastic Potential Energy",
+          "hint": "Elastic potential energy is stored in stretched or compressed objects.",
+          "choices": [
+            "Eₕ = ½k(Δx)²",
+            "Eₖ = ½mv²",
+            "ΔEₚ = mgΔh",
+            "P = Fv"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-power-a-spring-has-k-100-n-m-and-is-stretched-by-0-20-m-what-is-th-15",
+          "type": "mc",
+          "questionText": "A spring has k = 100 N/m and is stretched by 0.20 m. What is the elastic potential energy?",
+          "topic": "Power",
+          "hint": "Use Eₕ = ½k(Δx)².",
+          "choices": [
+            "1 J",
+            "2 J",
+            "10 J",
+            "20 J"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-power-power-is-defined-as-16",
+          "type": "mc",
+          "questionText": "Power is defined as:",
+          "topic": "Power",
+          "hint": "Power tells how fast work is done.",
+          "choices": [
+            "The rate of doing work or transferring energy",
+            "The total force on an object",
+            "The amount of mass in a system",
+            "The direction of motion"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-power-which-equation-calculates-power-from-work-and-time-17",
+          "type": "mc",
+          "questionText": "Which equation calculates power from work and time?",
+          "topic": "Power",
+          "hint": "Power = work done ÷ time taken.",
+          "choices": [
+            "P = ΔW/Δt",
+            "P = mv",
+            "P = mgh",
+            "P = Fs cos θ"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-power-a-machine-does-200-j-of-work-in-10-s-what-is-its-power-18",
+          "type": "mc",
+          "questionText": "A machine does 200 J of work in 10 s. What is its power?",
+          "topic": "Power",
+          "hint": "Use P = W/t.",
+          "choices": [
+            "10 W",
+            "20 W",
+            "100 W",
+            "2000 W"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "question-efficiency-a-force-of-50-n-moves-an-object-at-2-m-s-in-the-direction-of-19",
+          "type": "mc",
+          "questionText": "A force of 50 N moves an object at 2 m/s in the direction of the force. What power is developed?",
+          "topic": "Efficiency",
+          "hint": "Use P = Fv.",
+          "choices": [
+            "25 W",
+            "50 W",
+            "100 W",
+            "200 W"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-efficiency-efficiency-can-be-calculated-using-20",
+          "type": "mc",
+          "questionText": "Efficiency can be calculated using:",
+          "topic": "Efficiency",
+          "hint": "Efficiency compares useful output energy to input energy.",
+          "choices": [
+            "η = Eoutput / Einput",
+            "η = Einput / Eoutput",
+            "η = mv",
+            "η = Fs"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-efficiency-a-device-receives-100-j-of-input-energy-and-produces-80-j-of-21",
+          "type": "mc",
+          "questionText": "A device receives 100 J of input energy and produces 80 J of useful output energy. What is its efficiency?",
+          "topic": "Efficiency",
+          "hint": "Efficiency = output energy ÷ input energy × 100.",
+          "choices": [
+            "20%",
+            "50%",
+            "80%",
+            "125%"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "question-sankey-diagrams-a-motor-has-an-input-power-of-500-w-and-useful-output-power--22",
+          "type": "mc",
+          "questionText": "A motor has an input power of 500 W and useful output power of 400 W. What is its efficiency?",
+          "topic": "Sankey Diagrams",
+          "hint": "Efficiency = output power ÷ input power × 100.",
+          "choices": [
+            "25%",
+            "50%",
+            "75%",
+            "80%"
+          ],
+          "correctIndex": 3
+        },
+        {
+          "id": "question-energy-density-a-sankey-diagram-is-used-to-represent-23",
+          "type": "mc",
+          "questionText": "A Sankey diagram is used to represent:",
+          "topic": "Energy Density",
+          "hint": "Sankey diagrams show where energy goes.",
+          "choices": [
+            "Energy transfers",
+            "Chemical formulas",
+            "Atomic orbitals",
+            "Free-body forces"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "question-energy-energy-density-describes-24",
+          "type": "mc",
+          "questionText": "Energy density describes:",
+          "topic": "Energy",
+          "hint": "Fuels with high energy density store more energy in less mass or volume.",
+          "choices": [
+            "The amount of energy stored per unit mass or volume",
+            "The speed of a reaction",
+            "The mass of one mole",
+            "The acceleration of a falling object"
+          ],
+          "correctIndex": 0
         }
       ]
     }
